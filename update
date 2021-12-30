@@ -4,6 +4,10 @@ pushd dists
 for dist in *; do
     mkdir -p $dist/main
     dpkg-scanpackages --multiversion ../pool/$dist/main | sed 's|^Filename: [./]*pool|Filename: pool|' > $dist/main/Packages
-    xz -k $dist/main/Packages
+    xz -k -f $dist/main/Packages
 done
 popd
+
+apt-ftparchive release . > Release
+gpg --default-key veggiemike -abs -o - Release > Release.gpg
+gpg --default-key veggiemike --clearsign -o - Release > InRelease

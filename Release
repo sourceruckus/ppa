@@ -1,0 +1,25 @@
+Date: Thu, 30 Dec 2021 22:12:42 +0000
+MD5Sum:
+ 12bd6f43c6aaeb401650ad3e3f802a00               38 Release
+ 57da104ea69568005dd2952f358e53fd            22587 dists/bionic/main/Packages
+ 28e206ce4dc5875e35b61e1a83270cc7             4132 dists/bionic/main/Packages.xz
+ 62ef52ba458c4cf11c3a6ca5541e3fbf             2240 dists/focal/main/Packages
+ 84465478884898cb6d86877aef8f0af6             1272 dists/focal/main/Packages.xz
+SHA1:
+ b3d93305385c2158e222f02b05f13eefa0e35239               38 Release
+ da0542a34af61c93da8a277abb2019e4eb1157b5            22587 dists/bionic/main/Packages
+ 4199559e9c5efee1c495acde72a39d835dd10806             4132 dists/bionic/main/Packages.xz
+ 4e6f96a72a0f50c5291eefb05490eebd1e8d7160             2240 dists/focal/main/Packages
+ 5beb2bba4a9c35970635e9e5c1783425ef11de0a             1272 dists/focal/main/Packages.xz
+SHA256:
+ dc1ec849bd6afe4a757a0ea3bc32269891ef7803fa8b1b056527f1587283b0f2               38 Release
+ b1886fc77c85cb65d5e5f892d10000877c8c52e30d710e1e78a282219d9939e0            22587 dists/bionic/main/Packages
+ 326eeea79bef9f79e836775ec3b393b6cf0cd7f4a6de2afa602647f991b51597             4132 dists/bionic/main/Packages.xz
+ e17296fd025c9099cf5f37153f23a6530bb7c7ced8c4e47eb6ab389e3473e039             2240 dists/focal/main/Packages
+ c66786b0af4c7a6b367693bf691b189889970f506ef7394bebb28d4de03d32cb             1272 dists/focal/main/Packages.xz
+SHA512:
+ bc9fb0093340c150b3e0cf1c37a8a91d961427bcb0f30897235aa5dc28c18b96015c213aed56bc0d65d210fa70a0283026ff944c3f3e5aed18ceb80d57757526               38 Release
+ 912f36a7c1962efafd47809deead536801985a9f38404511f5f0ee4f7dd5c53eddc7f344c3d232cd07175f17e5c0663e92279b7a972d8503b4c430a3c6c95c65            22587 dists/bionic/main/Packages
+ 5c9d0ef1779168497444053dd3f0019c77e8b4193340d07d5000479d55fb76d2d290762dbc4571639cb890a0b6f31054334ee141351a1a78fca58fbc34fa0e2d             4132 dists/bionic/main/Packages.xz
+ a8995765ea8c24378cc61e11e2994de9aa9d631e6b04a1a1c22e368f78586654259f4c05583c046d46a468f87ff9a405edc187a584309b8a498af2c58ea414e9             2240 dists/focal/main/Packages
+ 5ac84d35faa6c5bd0f8b79fc49550708b72f110ec2c05d40740df4aeafbfcb2cc0abd6ef1bc47b69847886ec3f1564557214986259dedbd236a01455c73ffd2e             1272 dists/focal/main/Packages.xz

@@ -3,6 +3,6 @@
 pushd dists
 for dist in *; do
     mkdir -p $dist/main
-    dpkg-scanpackages --multiversion ../pool/$dist/main | sed 's|^Filename: [./]*pool|Filename: pool|' > main/Packages
+    dpkg-scanpackages --multiversion ../pool/$dist/main | sed 's|^Filename: [./]*pool|Filename: pool|' > $dist/main/Packages
 done
 popd

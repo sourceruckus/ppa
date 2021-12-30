@@ -1,0 +1,457 @@
+Package: lz4
+Version: 1.9.2
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 948K
+Depends: libc6
+Filename: pool/bionic/main/lz4_1.9.2-1.deb
+Size: 166292
+MD5sum: 920d7f0487e10553d7dd6defd1560615
+SHA1: cfe3f2ccbdddc2e2228a408733b382489252ecdc
+SHA256: 7b00baaed0f028a537be646eab8232c711e70776484ccc7e58711670dca41a64
+Section: utils
+Priority: optional
+Homepage: https://github.com/Cyan4973/lz4
+Description: Fast LZ compression algorithm library and tools
+ LZ4 is a very fast lossless compression algorithm, providing compression speed
+ at 400 MB/s per core, scalable with multi-cores CPU. It also features an
+ extremely fast decoder, with speed in multiple GB/s per core, typically
+ reaching RAM speed limits on multi-core systems.
+ .
+ This package contains libraries, headers, utils, and manpages.
+
+Package: ruckusrd
+Version: 0.12.2+
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 5.1M
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.12.2+-1.deb
+Size: 5091568
+MD5sum: d4bbfee79b0ca2dde57c241d84b8fa57
+SHA1: fde74f829de41af23ccd1c3a7d70eb448bcd4c2d
+SHA256: dcd7e4a12fcf78bb2bb23dbda413c3bca32e00cca764e8fc2b66fb325e25ae43
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: ruckusrd
+Version: 0.12.3
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 5.1M
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.12.3-1.deb
+Size: 5090308
+MD5sum: b942dd78c927e2d48ec509ed8f3471b0
+SHA1: 20c6bfc69c90d9a2a3d1b13519b87e9571771acd
+SHA256: 3494e91b85f493c8a6ab55a8de44110ee69bb69c0c03181f0925a058b3d92031
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: ruckusrd
+Version: 0.13.0
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 6.0M
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.13.0-1.deb
+Size: 6017744
+MD5sum: 2e7bb01aaf9d9305fb155acda435bb0e
+SHA1: 385e9ddedacf3ba788e1fbce9676c53bacbfab46
+SHA256: 8eea7a65d64e841f5a4640e6f7441d141f2a9f8b2d1faf186592f54931d56ec4
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: ruckusrd
+Version: 0.13.1
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 6.0M
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.13.1-1.deb
+Size: 6020684
+MD5sum: f2160acf56c0a3a5726f611b15fb41a1
+SHA1: bcb60e66a1b42be6aed1b795fd5c4748761c2785
+SHA256: 63fd5a43ef74df69ab508a43ad30ba5580513106757e149d64fba12b31555383
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: ruckusrd
+Version: 0.13.1+
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 6.0M
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.13.1+-1.deb
+Size: 6019376
+MD5sum: 16374384afc222155812029562fbea42
+SHA1: a79161958accddfaefccd570ecd1363a790a089a
+SHA256: 1d57184f906c992996ea271560126b46fcb1103db5be1c44a3c093b81b4a925a
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: ruckusrd
+Version: 0.13.2
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 6.3M
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.13.2-1.deb
+Size: 6406964
+MD5sum: 4d0201dcd979cfa55e126c8c3156a9af
+SHA1: ac8735a778d8a3ca10af2ade7305df8c12c56440
+SHA256: f62bcabcab61d1ad056253230aedcb438953a1f3b7e3ee354977e04272034508
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: ruckusrd
+Version: 0.14.0
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 8.6M
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.14.0-1.deb
+Size: 8766584
+MD5sum: b94721ae5f93dc72ffd8992feba6bd30
+SHA1: 7f7e82b281618b760e1ce755e07d24a4b4c714c9
+SHA256: c9ad2afb0693a7ef2a53b99e66ac44439519c8a6f78febea798f10071ec3c970
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: ruckusrd
+Version: 0.15.0
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 16K
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.15.0-1.deb
+Size: 11023380
+MD5sum: 18d6139676228742f9e012b63d511680
+SHA1: 3b5a8f6c357f6de5a6a3d579f38b1a71f2a7ba6d
+SHA256: d87ba328855afad5447f6bb84f5026526083ccb287555ad6a36745926d966b2a
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: ruckusrd
+Version: 0.16.0
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 16K
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.16.0-1.deb
+Size: 11062720
+MD5sum: 77b686370a6e9eed17de017b724388e6
+SHA1: 01dfb69ccdc71b3c9a47c564082b2d15fab81cad
+SHA256: 263ae17b916754271690cec8399d9b20dc472c1509a968685a91c69b6c1e83b8
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: ruckusrd
+Version: 0.17.0
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 16K
+Depends: bash
+Filename: pool/bionic/main/ruckusrd_0.17.0-1.deb
+Size: 10993352
+MD5sum: 021b49636b823cb17d5338f6254bbbb7
+SHA1: 2d862d4a79698589a446b5ca43717c80db4194c8
+SHA256: 1f24863d57dd0a603c94acef0c7517592b6d6de202e07bd4ab4582ef54aba145
+Section: utils
+Priority: optional
+Homepage: http://git.sourceruckus.org/?p=ruckusrd.git
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: sanoid
+Version: 2.0.3
+Architecture: all
+Maintainer: Jim Salter <jim@openoid.net>
+Installed-Size: 167
+Depends: libcapture-tiny-perl, libconfig-inifiles-perl, systemd, zfsutils-linux | zfs, perl:any
+Recommends: gzip, lzop, mbuffer, openssh-client | ssh-client, pv
+Filename: pool/bionic/main/sanoid_2.0.3_all.deb
+Size: 38680
+MD5sum: a1e3ee04259fb7d8e128af18a74a7b63
+SHA1: 0cc7c06bd1a6a5962e7bb961c0784c6d5b703dbb
+SHA256: edacaf0017803066ab4f55c6529eb54b4c41a76463fd9fd47a3e0f44a7b24bcc
+Section: utils
+Priority: optional
+Homepage: https://github.com/jimsalterjrs/sanoid
+Description: Policy-driven snapshot management and replication tools
+
+Package: xen
+Version: 4.13.1-mdl
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 299M
+Depends: bash, libaio1, libasound2, libasyncns0, libatk-bridge2.0-0, libatk1.0-0, libatspi2.0-0, libblkid1, libbsd0, libbz2-1.0, libc6, libcaca0, libcairo-gobject2, libcairo2, libcom-err2, libdatrie1, libdbus-1-3, libepoxy0, libexpat1, libext2fs2, libffi6, libflac8, libfontconfig1, libfreetype6, libgcc1, libgcrypt20, libgdk-pixbuf2.0-0, libgl1, libglib2.0-0, libglvnd0, libglx0, libgpg-error0, libgraphite2-3, libgtk-3-0, libharfbuzz0b, liblz4-1, liblzma5, liblzo2-2, libmount1, libncurses5, libncursesw5, libnl-3-200, libnl-route-3-200, libogg0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libpng16-16, libpulse0, libsdl1.2debian, libsdl2-2.0-0, libselinux1, libslang2, libsndfile1, libsndio6.1, libsystemd0, libthai0, libtinfo5, libuuid1, libvorbis0a, libvorbisenc2, libwayland-client0, libwayland-cursor0, libwayland-egl1, libwrap0, libx11-6, libxau6, libxcb-render0, libxcb-shm0, libxcb1, libxcomposite1, libxcursor1, libxdamage1, libxdmcp6, libxext6, libxfixes3, libxi6, libxinerama1, libxkbcommon0, libxrandr2, libxrender1, libxss1, libxxf86vm1, libyajl2, xen, zlib1g
+Filename: pool/bionic/main/xen_4.13.1-mdl-1.deb
+Size: 35674320
+MD5sum: 7cf0f48542e9b71c33658c04e9675b48
+SHA1: 367af03441b2548d88e3be697990d49b0427c2fd
+SHA256: 2223701545e6782002be3c9e305cd3d2eb0b040c2189354c39e5ffb412fb365a
+Section: utils
+Priority: optional
+Homepage: http://xenproject.org
+Description: Xen Hypervisor and userland tools
+ Xen is a Virtual Machine Monitor (VMM) originally developed by the
+ Systems Research Group of the University of Cambridge Computer
+ Laboratory, as part of the UK-EPSRC funded XenoServers project.  Xen
+ is freely-distributable Open Source software, released under the GNU
+ GPL. Since its initial public release, Xen has grown a large
+ development community, spearheaded by xenproject.org
+ (http://www.xenproject.org).
+
+Package: xen
+Version: 4.14.0-mdl
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 296M
+Depends: bash, libaio1, libasound2, libasyncns0, libatk-bridge2.0-0, libatk1.0-0, libatspi2.0-0, libblkid1, libbsd0, libbz2-1.0, libc6, libcaca0, libcairo-gobject2, libcairo2, libcom-err2, libdatrie1, libdbus-1-3, libepoxy0, libexpat1, libext2fs2, libffi6, libflac8, libfontconfig1, libfreetype6, libgcc1, libgcrypt20, libgdk-pixbuf2.0-0, libgl1, libglib2.0-0, libglvnd0, libglx0, libgpg-error0, libgraphite2-3, libgtk-3-0, libharfbuzz0b, liblzma5, liblzo2-2, libmount1, libncurses5, libncursesw5, libnl-3-200, libnl-route-3-200, libogg0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libpng16-16, libpulse0, libsdl1.2debian, libsdl2-2.0-0, libselinux1, libslang2, libsndfile1, libsndio6.1, libsystemd0, libthai0, libtinfo5, libuuid1, libvorbis0a, libvorbisenc2, libwayland-client0, libwayland-cursor0, libwayland-egl1, libwrap0, libx11-6, libxau6, libxcb-render0, libxcb-shm0, libxcb1, libxcomposite1, libxcursor1, libxdamage1, libxdmcp6, libxext6, libxfixes3, libxi6, libxinerama1, libxkbcommon0, libxrandr2, libxrender1, libxss1, libxxf86vm1, libyajl2, lz4, xen, zlib1g
+Filename: pool/bionic/main/xen_4.14.0-mdl-1.deb
+Size: 31680728
+MD5sum: 2258135d1a8edfad9b78b643cb1e9c79
+SHA1: 5318537afd9539396f83dd3615205a0539e23da7
+SHA256: 64950623c99d26a2cf2ae4b9d83f6c61051f2bb6cb51389729b48dfc34fa5803
+Section: utils
+Priority: optional
+Homepage: http://xenproject.org
+Description: Xen Hypervisor and userland tools
+ Xen is a Virtual Machine Monitor (VMM) originally developed by the
+ Systems Research Group of the University of Cambridge Computer
+ Laboratory, as part of the UK-EPSRC funded XenoServers project.  Xen
+ is freely-distributable Open Source software, released under the GNU
+ GPL. Since its initial public release, Xen has grown a large
+ development community, spearheaded by xenproject.org
+ (http://www.xenproject.org).
+
+Package: xen
+Version: 4.14.1-mdl
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 297M
+Depends: bash, libaio1, libapparmor1, libasound2, libasyncns0, libatk-bridge2.0-0, libatk1.0-0, libatspi2.0-0, libblkid1, libbsd0, libbz2-1.0, libc6, libcaca0, libcairo-gobject2, libcairo2, libcom-err2, libdatrie1, libdbus-1-3, libepoxy0, libexpat1, libext2fs2, libffi6, libflac8, libfontconfig1, libfreetype6, libgcc1, libgcrypt20, libgdk-pixbuf2.0-0, libgl1, libglib2.0-0, libglvnd0, libglx0, libgpg-error0, libgraphite2-3, libgtk-3-0, libharfbuzz0b, liblzma5, liblzo2-2, libmount1, libncurses5, libncursesw5, libnl-3-200, libnl-route-3-200, libogg0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libpng16-16, libpulse0, libsdl1.2debian, libsdl2-2.0-0, libselinux1, libslang2, libsndfile1, libsndio6.1, libsystemd0, libthai0, libtinfo5, libuuid1, libvorbis0a, libvorbisenc2, libwayland-client0, libwayland-cursor0, libwayland-egl1, libwrap0, libx11-6, libxau6, libxcb-render0, libxcb-shm0, libxcb1, libxcomposite1, libxcursor1, libxdamage1, libxdmcp6, libxext6, libxfixes3, libxi6, libxinerama1, libxkbcommon0, libxrandr2, libxrender1, libxss1, libxxf86vm1, libyajl2, lz4, xen, zlib1g
+Filename: pool/bionic/main/xen_4.14.1-mdl-1.deb
+Size: 31780664
+MD5sum: 9df2dfe9573e1527cf7255baa972ed97
+SHA1: cabda6c6db17a45ea673eb6dc27cf2e39985fb3c
+SHA256: 55e4c05309c57bc1ec05f1c4aafc49b818ce8333958c71ad8ae967c96d5b7075
+Section: utils
+Priority: optional
+Homepage: http://xenproject.org
+Description: Xen Hypervisor and userland tools
+ Xen is a Virtual Machine Monitor (VMM) originally developed by the
+ Systems Research Group of the University of Cambridge Computer
+ Laboratory, as part of the UK-EPSRC funded XenoServers project.  Xen
+ is freely-distributable Open Source software, released under the GNU
+ GPL. Since its initial public release, Xen has grown a large
+ development community, spearheaded by xenproject.org
+ (http://www.xenproject.org).
+
+Package: xen
+Version: 4.14.2-mdl
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 60M
+Depends: bash, libaio1, libapparmor1, libasound2, libasyncns0, libatk-bridge2.0-0, libatk1.0-0, libatspi2.0-0, libblkid1, libbsd0, libbz2-1.0, libc6, libcaca0, libcairo-gobject2, libcairo2, libcom-err2, libdatrie1, libdbus-1-3, libepoxy0, libexpat1, libext2fs2, libffi6, libflac8, libfontconfig1, libfreetype6, libgcc1, libgcrypt20, libgdk-pixbuf2.0-0, libgl1, libglib2.0-0, libglvnd0, libglx0, libgpg-error0, libgraphite2-3, libgtk-3-0, libharfbuzz0b, liblzma5, liblzo2-2, libmount1, libncurses5, libncursesw5, libnl-3-200, libnl-route-3-200, libogg0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libpng16-16, libpulse0, libsdl1.2debian, libsdl2-2.0-0, libselinux1, libslang2, libsndfile1, libsndio6.1, libsystemd0, libthai0, libtinfo5, libuuid1, libvorbis0a, libvorbisenc2, libwayland-client0, libwayland-cursor0, libwayland-egl1, libwrap0, libx11-6, libxau6, libxcb-render0, libxcb-shm0, libxcb1, libxcomposite1, libxcursor1, libxdamage1, libxdmcp6, libxext6, libxfixes3, libxi6, libxinerama1, libxkbcommon0, libxrandr2, libxrender1, libxss1, libxxf86vm1, libyajl2, lz4, xen, zlib1g
+Filename: pool/bionic/main/xen_4.14.2-mdl-1.deb
+Size: 31769952
+MD5sum: a085c7819df6a75c5aa8121adcad63c8
+SHA1: c26b11b2dcfef237ae2eea8b5f2d213da4192a96
+SHA256: 64c2bb377cccc1947845033991075348f4abdf0f5b32d5a82a72d9409f60bd2b
+Section: utils
+Priority: optional
+Homepage: http://xenproject.org
+Description: Xen Hypervisor and userland tools
+ Xen is a Virtual Machine Monitor (VMM) originally developed by the
+ Systems Research Group of the University of Cambridge Computer
+ Laboratory, as part of the UK-EPSRC funded XenoServers project.  Xen
+ is freely-distributable Open Source software, released under the GNU
+ GPL. Since its initial public release, Xen has grown a large
+ development community, spearheaded by xenproject.org
+ (http://www.xenproject.org).
+
+Package: zfs
+Source: zfs-linux
+Version: 0.8.4-mdl
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 64M
+Depends: libaio1, libblkid1, libc6, libssl1.1, libudev1, libuuid1, zfs, zlib1g
+Conflicts: zfs-fuse
+Replaces: zfsutils-linux, zfs-zed, zfs-doc
+Provides: zfs-dracut, zfs-initramfs, zfs-test, libnvpair1, libuutil1, libzfs2, libzfs2-devel, libzpool2, python3-pyzfs
+Filename: pool/bionic/main/zfs_0.8.4-mdl-1.deb
+Size: 12557212
+MD5sum: 561c6eb7ebd9753549c3ebf450de154f
+SHA1: 440d1f0bc615864211a5b64c470230b51a3682e9
+SHA256: a26ff383fb5bd72e8ee864fd5a6227708c40fcba71dff439bfee2764dd3a84f0
+Section: admin
+Priority: extra
+Homepage: http://www.zfsonlinux.org/
+Description: userland portion of ZFS on Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the entire userland installation for ZFS on Linux.
+
+Package: zfs
+Source: zfs-linux
+Version: 0.8.5-mdl-2
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 64M
+Depends: libaio1, libblkid1, libc6, libssl1.1, libudev1, libuuid1, zfs, zlib1g
+Conflicts: zfs-fuse
+Replaces: zfsutils-linux, zfs-zed, zfs-doc
+Provides: zfs-dracut, zfs-initramfs, zfs-test, libnvpair1, libuutil1, libzfs2, libzfs2-devel, libzpool2, python3-pyzfs, zfs-auto-snapshot
+Filename: pool/bionic/main/zfs_0.8.5-mdl-2.deb
+Size: 12571896
+MD5sum: 95ceb43d5ff3dd73020fee0e1e0ff3aa
+SHA1: 35a48e1cb80d6592ba064a537cf777ec820daf81
+SHA256: 3e1e5439200dd866b76a2b5c65aae90f24ef67b7c1ecb806b963fb7365f08246
+Section: admin
+Priority: extra
+Homepage: http://www.zfsonlinux.org/
+Description: userland portion of ZFS on Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the entire userland installation for ZFS on Linux.
+ .
+ It also provides the zfs-auto-snapshot utility (w/out configuring cron).
+
+Package: zfs
+Source: zfs-linux
+Version: 2.0.1-mdl-1
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 87M
+Depends: libaio1, libblkid1, libc6, libssl1.1, libudev1, libuuid1, zlib1g
+Conflicts: zfs-fuse
+Replaces: zfsutils-linux, zfs-zed, zfs-doc
+Provides: zfs-dracut, zfs-initramfs, zfs-test, libnvpair1, libuutil1, libzfs2, libzfs2-devel, libzpool2, python3-pyzfs, zfs-auto-snapshot
+Filename: pool/bionic/main/zfs_2.0.1-mdl-1.deb
+Size: 18615288
+MD5sum: bc227ca9b37b463e0ddec311735fdbbb
+SHA1: ce7c479e9ddc8039c78ee6e5bff773872a40e950
+SHA256: 58b5f9f08267c5bdcdcf2ace6bd012ac9d2aaa5f2afda9be39b9993c06da9fe5
+Section: admin
+Priority: extra
+Homepage: http://www.zfsonlinux.org/
+Description: userland portion of ZFS on Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the entire userland installation for ZFS on Linux.
+ .
+ It also provides the zfs-auto-snapshot utility (w/out configuring cron).
+
+Package: zfs
+Source: zfs-linux
+Version: 2.0.4-mdl-1
+Architecture: amd64
+Maintainer: Michael D Labriola <michael.d.labriola@gmail.com>
+Installed-Size: 87M
+Depends: libaio1, libblkid1, libc6, libssl1.1, libudev1, libuuid1, zfs, zlib1g
+Conflicts: zfs-fuse
+Replaces: zfsutils-linux, zfs-zed, zfs-doc
+Provides: zfs-dracut, zfs-initramfs, zfs-test, libnvpair1, libuutil1, libzfs2, libzfs2-devel, libzpool2, python3-pyzfs, zfs-auto-snapshot
+Filename: pool/bionic/main/zfs_2.0.4-mdl-1.deb
+Size: 18629180
+MD5sum: ceb62db0bf2c69533c3c46bcfb752fdd
+SHA1: bdbd314f407ed9bf7c5fd5642b52db132f4fb649
+SHA256: 460401a37007a1268ff36bc1a42225c9f62b901b35ce999246de301ccf5e0694
+Section: admin
+Priority: extra
+Homepage: http://www.zfsonlinux.org/
+Description: userland portion of ZFS on Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the entire userland installation for ZFS on Linux.
+ .
+ It also provides the zfs-auto-snapshot utility (w/out configuring cron).
+

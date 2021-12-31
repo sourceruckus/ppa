@@ -1,13 +1,12 @@
 #!/bin/bash
 
-pushd dists
-for dist in *; do
-    mkdir -p $dist/main
-    dpkg-scanpackages --multiversion ../pool/$dist/main | sed 's|^Filename: [./]*pool|Filename: pool|' > $dist/main/Packages
-    xz -k -f $dist/main/Packages
+for x in dists/*; do
+    dist=$(basename $x)
+    echo updating $dist
+    mkdir -p $x/main
+    dpkg-scanpackages --multiversion pool/$dist/main > $x/main/Packages
+    xz -k -f $x/main/Packages
+    apt-ftparchive release $x > $x/Release
+    gpg --default-key veggiemike -abs -o - $x/Release > $x/Release.gpg
+    gpg --default-key veggiemike --clearsign -o - $x/Release > $x/InRelease
 done
-popd
-
-apt-ftparchive release . > Release
-gpg --default-key veggiemike -abs -o - Release > Release.gpg
-gpg --default-key veggiemike --clearsign -o - Release > InRelease

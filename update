@@ -1,12 +1,19 @@
 #!/bin/bash
 
-for x in dists/*; do
+# This assumes our pool dir matches the directory structure of our dists
+# meta-data tree.
+for x in pool/*; do
     dist=$(basename $x)
+    distdir=dists/$dist
     echo updating $dist
-    mkdir -p $x/main
-    dpkg-scanpackages --multiversion pool/$dist/main > $x/main/Packages
-    xz -k -f $x/main/Packages
-    apt-ftparchive release $x > $x/Release
-    gpg --default-key veggiemike -abs -o - $x/Release > $x/Release.gpg
-    gpg --default-key veggiemike --clearsign -o - $x/Release > $x/InRelease
+    for y in $x/main/*; do
+        arch=$(basename $y)
+        echo processing $arch
+        mkdir -p $distdir/main/$arch
+        dpkg-scanpackages --multiversion $y > $distdir/main/$arch/Packages
+        xz -k -f $distdir/main/$arch/Packages
+        apt-ftparchive release $distdir > $distdir/Release
+        gpg --default-key veggiemike -abs -o - $distdir/Release > $distdir/Release.gpg
+        gpg --default-key veggiemike --clearsign -o - $distdir/Release > $distdir/InRelease
+    done
 done

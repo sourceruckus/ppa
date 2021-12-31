@@ -1,37 +1,45 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Fri, 31 Dec 2021 16:56:59 +0000
+Architectures: binary-amd64
+Codename: focal
+Components: main
+Date: Fri, 31 Dec 2021 18:46:17 +0000
+Description: Source Ruckus Packages for Ubuntu Focal 20.04
+Label: Source Ruckus PPA
+Origin: sourceruckus-ppa
+Suite: focal
+Version: 20.04
 MD5Sum:
- 551ae7ae98154e020532fb9b5b18d9d0               38 Release
+ 6d254f5437c429b0717032269780c4bc              236 Release
  cbed81d27c505e1001213f0f8b97be16             2253 main/binary-amd64/Packages
  b6d9974a79ec257c755e23ec18961fab             1280 main/binary-amd64/Packages.xz
 SHA1:
- 308ee7333ffbdd776ec47e50b3d9dbb2c091d769               38 Release
+ 2dc0bc2d89aebf486b14e94196250c6bedb1f07a              236 Release
  77e7e86ad4400c0cd6ce5510f83be3b8790b5da1             2253 main/binary-amd64/Packages
  4c3091bd76cb9bd01dfda239a542cb1ed7659bea             1280 main/binary-amd64/Packages.xz
 SHA256:
- 91102e621c115c6a69fe4b17e893e1039d2570e76f35ffd11349e623686f5afb               38 Release
+ 1f0f90ac355765e3d91c125fc20bf1f63f07f10071b24322599936abbf96606f              236 Release
  66cd984c93a7e8943fc4a8674d7c64303d9ecf0951a98940b065dcafbc67555e             2253 main/binary-amd64/Packages
  51a31b6b705708e44427d38a840e02500d5a6dc20c1c2c46e096d30042271327             1280 main/binary-amd64/Packages.xz
 SHA512:
- 310b6c467ab9692fcb43428b7d35e3a93b048714b8f4f61f1cfa705fd2ad44c0adb0e98f2999b5f5f3cbc65bd4ea5b3e58b07ef8f2832146a1867bff03f72c77               38 Release
+ af198cbe74d7707749794a1e3f7b92c5ea72152f86d6a01a7e5b862d1bb751a4cecb5e294df541d2f1efc8d47e0b4d4ec7821768f5b479cdf5c6d93f110caba8              236 Release
  53aec085fb57271bc7a00acdd288fb337bd5e151f675b95d9ed951a6f77de1fe625addd3e80eb75f04cf89db56083c61356f0f56d580be958872c7cc88e43355             2253 main/binary-amd64/Packages
  c7ba7061642dcc020993748fbea40a204c681888dff585bf1d4019e62d25224dbc1d92922bc26a062485953f9b7585e9e31459af224f3e7b03c7f03b43306434             1280 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJQBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmHPNlscHHZlZ2dpZW1p
-a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkEdTEACfD1w+m3W/719KTd1K
-eXkKv9bMA2mP47A+2qYDxhnA4A0OwY6VTmub0cp86iGn0XIq/yVthWr3q4xmhO7h
-s4Ln/Orj9rBH8hhE9uwwKR6TF6kSiaj2k+Yha44zzfc4BBiVuA0xDISw0ssCx83R
-LqcP31aU2RAa7bpmRzBcpJTfDsM00O18AXosIg/YFoN0vZDOMAgb8VN1U7vGU/uJ
-meYwJGR0OE1HhV7mbqgTK/eKjJibymWeCQMq0NZDtjC3fVTGhYt1QWY2ohZZaZgn
-iJZjz4h+1Q4fdWw8guYzJQLviyzQcOUGuObgyHHE/f5dgLJvMmaYDJlQI4IKe5Mn
-0ItwjqPc88lj5Kx7hlSOXeSZg2tmuw84Ob8Lp6VjgCQ4+1Yx42xXCaz7HCHrYAfB
-zbme/80YT4HM+oTfO0yYIEyH/jg6+aTw2C4uf9kbSKgwPBiwhdKExRy9FIDEx9os
-G5yJky29/nss8ZcF3ETk+plHH/zUqDOt4Q4M35GO1vVm23WVtl7pbb1oCU6t3FGS
-JtN3s+f58RItefIoY8HMkt2s+TOtryM3Z5B/clhdgNYwwnkpnjJCYobrsm8EWmNP
-A+nZ8gy4fOoOdYhmXN/OGvx12i8Udobfz+FJ1m3vubKqJcVehnULvAiVOOCTZ8wI
-qzY6xdkCVr583Z5OLsVj2+RDsg==
-=62/E
+iQJQBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmHPT/kcHHZlZ2dpZW1p
+a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkCSFD/9c6eUAGOg7e/Z6EPja
+S+hoW8r50lBlJv20cXJg0z+EKEVpszGkYFJKVSeTSVPl/GkEiarruTbrmVV/YvJC
+v/YjefrDk27ypJFxclQcWhLR+9qbW/figlp5Ew7IQhbdLOcPznRWQ3+MLd7Dcw43
+fkShJdWks4HgDNs7rcefHhRPjSLQellpe++bVGmHX4RgeKa8NGV88UyFcOXxIkke
+UcYtlwjtPNGeJJbpTrhmTrcwJSSa94we721LcsGElJw61hZGBz4FovplUP1K8ZfQ
+/nZYZSRTIOjMTqAAIAhvs5q4xWl8oM02i9Y1ACz8HpDmOG0gF0E0eQ2VbW5a84qH
+Pi2p5/AQBf3V+y/o9t+lGETieOJHaAP//tOhb3GYl58NlBtURU0EZnxHi89s/Goy
+6i3Dv3hPvYK0dS3vM6A9ivEpTPiz6f+5fGMbNRv/HdppyWC4mkq7nV8DLpfg8Gmd
+nGa0MuQ9fRgLzY0B35fIXTn8gRxi9a9T2rMqi8s8AmAl/Vwmb7Jn9Y3OsC6vV0f7
+DOTWVKoGZoj1WZG+iYqNOaEksnDXy4gRQM5JQ9PDADTA2btX1HVzySLXkRf3jbSZ
+Q08dzWeOhF0KePmcYimlQgia86uzDIiLC506iUD8RPgGxsnp86tE6zsHkST8ezxH
+vWdsd9pejez4dJ9J7oJ/egjfcw==
+=hVc1
 -----END PGP SIGNATURE-----

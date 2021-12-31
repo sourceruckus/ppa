@@ -6,14 +6,24 @@ for x in pool/*; do
     dist=$(basename $x)
     distdir=dists/$dist
     echo updating $dist
+    archs=
     for y in $x/main/*; do
         arch=$(basename $y)
+        archs+=" $arch"
         echo processing $arch
         mkdir -p $distdir/main/$arch
         dpkg-scanpackages --multiversion $y > $distdir/main/$arch/Packages
         xz -k -f $distdir/main/$arch/Packages
-        apt-ftparchive release $distdir > $distdir/Release
-        gpg --default-key veggiemike -abs -o - $distdir/Release > $distdir/Release.gpg
-        gpg --default-key veggiemike --clearsign -o - $distdir/Release > $distdir/InRelease
     done
+    apt-ftparchive -o APT::FTPArchive::Release::Origin="sourceruckus-ppa" \
+                   -o APT::FTPArchive::Release::Label="Source Ruckus PPA" \
+                   -o APT::FTPArchive::Release::Suite="focal" \
+                   -o APT::FTPArchive::Release::Version="20.04" \
+                   -o APT::FTPArchive::Release::Codename="focal" \
+                   -o APT::FTPArchive::Release::Architectures="$(echo $archs)" \
+                   -o APT::FTPArchive::Release::Components="main" \
+                   -o APT::FTPArchive::Release::Description="Source Ruckus Packages for Ubuntu Focal 20.04" \
+                   release $distdir > $distdir/Release
+    gpg --default-key veggiemike -abs -o - $distdir/Release > $distdir/Release.gpg
+    gpg --default-key veggiemike --clearsign -o - $distdir/Release > $distdir/InRelease
 done

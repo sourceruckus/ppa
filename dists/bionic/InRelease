@@ -4,42 +4,42 @@ Hash: SHA512
 Architectures: binary-amd64
 Codename: focal
 Components: main
-Date: Mon, 24 Jan 2022 17:48:53 +0000
+Date: Mon, 31 Jan 2022 18:24:22 +0000
 Description: Source Ruckus Packages for Ubuntu Focal 20.04
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: focal
 Version: 20.04
 MD5Sum:
- e883485b24a0563d0e8088ad6c954fd6              236 Release
+ e1e405afefd9e69e4b708cb9b3e8aeb2              236 Release
  1c54252037de6120eafd47cb20f7ea50            23746 main/binary-amd64/Packages
  1c59f7f68ffe009eb13c72a5a707b441             4244 main/binary-amd64/Packages.xz
 SHA1:
- 4f8a0307847276b3763f85f2f86a12946041843e              236 Release
+ f43cbbcaff83ec3b13b77a98c5025194046eab94              236 Release
  732c82940a9e899fa6f9ef48e86aa002d563aa03            23746 main/binary-amd64/Packages
  0a9590c54b0834d3373fd46a13b8e2ca1bc715e3             4244 main/binary-amd64/Packages.xz
 SHA256:
- 040197d1202fed71a1ae74053019f16629f197d1d3f39fad33af65b84e9425ae              236 Release
+ bc9197c1d9e88e0048952ae44643324044038de0de7ba60b00dcddb6c5cb824f              236 Release
  a3383bac7fb41cf4e9d045096ade9354c6cdbe48a1702a9d3efe3919c8950b2a            23746 main/binary-amd64/Packages
  6e9105126aa148298297db54deeba2c7318d25389e5c3476a823a3c83355bba8             4244 main/binary-amd64/Packages.xz
 SHA512:
- 98b38cc020c9971abfe1f144cf3749a028b4eb12f19860dc4fb9d5c33c448c31e5d4856c377aa87d8764b4dc84a7a660c245949ed1ab1231dd88dd50f6700cac              236 Release
+ 0cbb76be7b2e2833189327d891358b52bed9a3081398bfac9f330ab92934fb3b1685971b0d8e64991a6675df1178b05bb2372020edd9bd7b37581ab41e7aef96              236 Release
  66840b617727f81bb04c3ad2b2dad192e3195e4dadf3678e69cfe1ff8264ea9fba28bea471684c4496b50cde6538d076f30947556897c51143199f343f1b2f6d            23746 main/binary-amd64/Packages
  973e87d5bfd515bdee798c4e6d23d904d8be1bc89cb01d5e67ff83ca2a1d69b357f2519edc8dc53bc944a06b480203c69d9de692f8db555cfd9d67354d14e4d3             4244 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJQBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmHu5oUcHHZlZ2dpZW1p
-a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkE4iEAC/SaDUkz7BGYq81qx3
-yjBi/6CEpt8VzP4P/kVPRHzhQgPyGaz+JTQlzNXXta1xGH+WpzvztFuCkIhKxkwR
-TR7e10Iv7xyIr1zE/cF8V8DPKTg0/Oozk5xEnltJUbsm8D6Ci0OtxHduFfyFw3UU
-RXTiASF5hY3Q9amHKr0Z4A8kUe0A11GUULA8PhiHz4YZrVinp+g80vcT3weehDI3
-vOriOvO2Ffig2X9Iol/PUj3H3ovYEWGgTPX+ZpnGEtZb1u03awO+Brh2oBMmWd0N
-Kx/sTc1uZGDJtktGrEAi+cgxHNl6nWrG28WIiLRXjnb59BCt2LTVrfeGnycxbmN9
-SMzljg1XySvOfeCNQhWoI6t71b7ajJ99iiHP7kR7r2RJHAKPIdQUX0DvloOhA+EP
-DQts3y83AbmG2W3HUktXssjN/2H4HzvpK7moCDBXgZFJtBP9HYsRvf0tcf5PDtqF
-TNl6srviDd5202yo3zkE7MoBKL0n+TkgJ81+Fd1z43eWX6fTYPkUqqu45eRqGoLl
-1Reb/uycV4yhdTa9X+JfEF116mJXkSNz3YtQ9LoVXojCoQ23uqvJyfr+O7yPE8bm
-az7odLbeW2ue11EFEpRMifvLqJgQ++oZjbqOMaF7AhPbx8JF272MclWbXgfszNwR
-koM92yYvEiLK4pKy67GtZwHSeA==
-=tuib
+iQJQBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmH4KVccHHZlZ2dpZW1p
+a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkBlsD/9NmW8pK+GMxRsqDKxM
+P0IDJ5EfOM3btOzNiu69qsUrUujB1/bK/wtFB7f4gl6/LHpz3jdLxuAswiFL5PR2
+tSVMe+JafouhGz4q0JL9mFOeU46Ud/1493/gb50HsQNjFj94gjSEIACop4KaSoD8
+OKuPc3Q8Q6mTTjMbZt14So2W8BfPzmKs5FuLgSa6HBvA9QafGM4ELnf5qwPE1M7J
+5X6hy8Ta1iIfJ9vECbkN/C7W9TMsGn/7rsYEMQqUDXb6j/dpf3FykYXm9B/841Ww
+01Wus5pW1eYKVjKjnE5e0nM1alLBH/EhV1lXKBIvmtFVMw60tVVw3avt2BFxeVzw
+4nTrbQt2wA809Dd3d4fIY75rkp+ExpB2FoV87kUkGca8WQlhqibjAbLh70/c9EBr
+EQ0rJCR3k6s87EJ1bmFd8s69W25Ga8M346Wz/TqYzFobJUZyX9GRTXCmfzZH/Cpw
+7OZ28NYSfd21QETxvd69kqRwr8wvH8FB3WNjiAoY9n1JAHxFaxjZA7a3DQMyI6Bp
+k/dAncBcGs9KCPLOCQIBFXoEto84f4RXt3GPIzc3ePolYkYET/FHgrUAHKUMORNV
+O5WJjyj34l6BvE6nBGSDChAtldGUWv/iScO745qMsyoRm3QJFe0AslMK9MLYr+VF
+GyOo5t9LrkuPubFhQVm9vVPu6g==
+=eigK
 -----END PGP SIGNATURE-----

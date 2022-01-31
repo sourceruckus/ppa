@@ -1,3 +1,23 @@
+Package: pingenator
+Version: 0.3.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 120
+Depends: python3, iputils-ping, iproute2
+Filename: pool/focal/main/binary-amd64/pingenator_0.3.0-1.deb
+Size: 17608
+MD5sum: a19699193fdf47934c8bf0390b89e482
+SHA1: b85beed52e98cb52bcb4e56eb067588f657993a1
+SHA256: f4ea536cdbc665a267ec20a11cd7ec0e5f369dbc17043ef48506095c28ac885b
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/pingenator
+Description: Pingenator - a super ping tool to get you places
+ Pingenator's primary use-case is checking internet connectivity by
+ pinging a list of hosts.  The pinging is done in parallel, so you can
+ ping a dozen hosts once and have the results in 1 second instead of
+ 12.
+
 Package: ruckusrd
 Version: 0.17.2
 Architecture: amd64

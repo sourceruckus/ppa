@@ -107,6 +107,26 @@ Description: Fast LZ compression algorithm library and tools
  .
  This package contains libraries, headers, utils, and manpages.
 
+Package: microcodenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 124
+Depends: bash, cpio, findutils
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/bionic/main/binary-amd64/microcodenator_1.0.0-1.deb
+Size: 15176
+MD5sum: d8370612479edc661e27174271b64b57
+SHA1: 93d6b00df28593435e06d8232232c60c54190d31
+SHA256: acf0f08937751f55603225b6dfca25ec04aa9e0492c1cdfbab6f4a8ed2ae01f8
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/microcodenator
+Description: Microcodenator - magical creator of ucode.img and narwhals
+ Microcodenator is a utility for creating a ucode.img file containing
+ the correct microcode for the host system.
+
 Package: pingenator
 Version: 1.0.0-1
 Architecture: amd64

@@ -85,6 +85,26 @@ Description: Source Ruckus Kernel-Builder - build that kernel like a wizard!
  resulting installer can be installed locally or can install itself on
  a list of remote hosts via SSH.
 
+Package: microcodenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 124
+Depends: bash, cpio, findutils
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/focal/main/binary-amd64/microcodenator_1.0.0-1.deb
+Size: 15184
+MD5sum: 297a1ebfe2ce35235b2837d82b3aa46c
+SHA1: 32b034289bc2870b8ccac0c724364294c6b76fea
+SHA256: 6f31c2d21acb83180810befc3019f11a2f737fc9d7b0f83176fcd51019e6d115
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/microcodenator
+Description: Microcodenator - magical creator of ucode.img and narwhals
+ Microcodenator is a utility for creating a ucode.img file containing
+ the correct microcode for the host system.
+
 Package: pingenator
 Version: 0.3.0-1
 Architecture: amd64

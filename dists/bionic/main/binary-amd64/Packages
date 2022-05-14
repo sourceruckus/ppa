@@ -19,6 +19,28 @@ Description: Doit - fire-and-forget script mailer
  exit status to a specified account.  It can also log to a file
  locally instead of mailing, if that's what floats your boat.
 
+Package: extractenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 128
+Depends: bash, debianutils
+Recommends: gzip, bzip2, xz-utils, zstd
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/bionic/main/binary-amd64/extractenator_1.0.0-1.deb
+Size: 16808
+MD5sum: 4694cf56cb225689d3db478113cfc9d1
+SHA1: 40d8f297e115b1c37db9faa8cca01ed3e45399ad
+SHA256: 5e54c1b5cd62a9cb0bad502e27c046fbaa848b14ae31c15b412eccbc5c73774f
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/extractenator
+Description: Extractenator - a spicy self-extracting installer creator
+ Extractenator is a utility for creating compressed, self extracting
+ executables that run an embedded install script after extracting to a
+ temp directory.
+
 Package: kernel-builder
 Version: 1.0.0-1
 Architecture: amd64

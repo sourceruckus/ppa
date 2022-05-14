@@ -20,6 +20,26 @@ Description: Fast LZ compression algorithm library and tools
  .
  This package contains libraries, headers, utils, and manpages.
 
+Package: pingenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 120
+Depends: python3, iputils-ping, iproute2
+Filename: pool/bionic/main/binary-amd64/pingenator_1.0.0-1.deb
+Size: 17488
+MD5sum: b1c05c4787fc6451e4567dccfab705a2
+SHA1: 15a61cd442dbfbfff1b9d95959b3ab8346b952b5
+SHA256: e31aaa5dbbc70a5e67f6e7d1e7ad69aec8f43733f6da9822ea35221ac88d2394
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/pingenator
+Description: Pingenator - a super ping tool to get you places
+ Pingenator's primary use-case is checking internet connectivity by
+ pinging a list of hosts.  The pinging is done in parallel, so you can
+ ping a dozen hosts once and have the results in 1 second instead of
+ 12.
+
 Package: ruckusrd
 Version: 0.12.2+
 Architecture: amd64

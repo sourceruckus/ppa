@@ -19,6 +19,29 @@ Description: Doit - fire-and-forget script mailer
  exit status to a specified account.  It can also log to a file
  locally instead of mailing, if that's what floats your boat.
 
+Package: kernel-builder
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 136
+Depends: bash, ruckusrd, extractenator, tar, findutils, make
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/focal/main/binary-amd64/kernel-builder_1.0.0-1.deb
+Size: 18112
+MD5sum: feaec0b350a18ccd8dcb868693ef0e6c
+SHA1: 95ce142a44df85f5ccc1fdb9a9db2d1b0014a93e
+SHA256: 9af98069cccbf072229538b70e9a3eb3f0e077350c109ca6d73327f330dc8672
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/kernel-builder
+Description: Source Ruckus Kernel-Builder - build that kernel like a wizard!
+ The Source Ruckus Kernel-Builder is a utility for automating building
+ the Linux kernel, creating a universal initrd using RuckusRD, and
+ wrapping it all up into a self-extracting kernel installer.  The
+ resulting installer can be installed locally or can install itself on
+ a list of remote hosts via SSH.
+
 Package: pingenator
 Version: 0.3.0-1
 Architecture: amd64

@@ -41,6 +41,27 @@ Description: Extractenator - a spicy self-extracting installer creator
  executables that run an embedded install script after extracting to a
  temp directory.
 
+Package: firmwarenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 124
+Depends: bash, cpio, squashfs-tools, findutils
+Recommends: gzip, bzip2, xz-utils, zstd, ruckusrd
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/focal/main/binary-amd64/firmwarenator_1.0.0-1.deb
+Size: 16332
+MD5sum: b3b77be01ea8f6233e7032a8f08107c3
+SHA1: 891de8349cfc3420696fa58f884dd3a4a11a3833
+SHA256: 254a8106263818554dda5d28fb6bc8e1ebb2155b5abfe25b0adc29464d10ba25
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/firmwarenator
+Description: Firmwarenator - a magical machine-specific fw.img creator.
+ Firmwarenator is a utility for creating a fw.img file containing all
+ the firmware required for the host system.
+
 Package: kernel-builder
 Version: 1.0.0-1
 Architecture: amd64

@@ -1,3 +1,24 @@
+Package: doit
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 120
+Depends: bash, mailx
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/bionic/main/binary-amd64/doit_1.0.0-1.deb
+Size: 15008
+MD5sum: 87a04a50383bd68327aeb4ead4c9a5a3
+SHA1: 2874019a2c1d083a43379dcdfe14818f136c9880
+SHA256: 4a26a873cbbd0d6e87e76d2cea91dcce5f0d179000e91879166ecc9dcc183dfe
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/doit
+Description: Doit - fire-and-forget script mailer
+ Doit executes a command in the background and mails its output and
+ exit status to a specified account.  It can also log to a file
+ locally instead of mailing, if that's what floats your boat.
+
 Package: lz4
 Version: 1.9.2
 Architecture: amd64

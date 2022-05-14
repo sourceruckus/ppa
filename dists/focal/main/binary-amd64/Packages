@@ -168,17 +168,17 @@ Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
  boot issues.
 
 Package: ruckusrd
-Version: 0.18.0
+Version: 0.18.0-1
 Architecture: amd64
 Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
-Installed-Size: 14536
+Installed-Size: 14540
 Depends: bash
 Recommends: doit, extractenator, kernel-builder, firmwarenator, microcodenator
 Filename: pool/focal/main/binary-amd64/ruckusrd_0.18.0-1.deb
-Size: 14692648
-MD5sum: 8c48ae918575329e1b3d06ce9977b91f
-SHA1: dd798b8db9051454f925b1989d5e5525f9de54f5
-SHA256: a38e53b34e4e8971a80f5c568152fe8983faa18daf24e172b311079ac877ada4
+Size: 14694508
+MD5sum: 6c60a366ed57804fb13b3e02f73f9da5
+SHA1: fe9edfef085b2f3a3ed31e07cfebe760fcf6a4ee
+SHA256: 0238adadb551aa05be67f967203cb3da2ea0ca44486a8f12f0141a00b56a5ba9
 Section: utils
 Priority: optional
 Homepage: https://github.com/sourceruckus/ruckusrd

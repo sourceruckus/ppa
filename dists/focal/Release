@@ -1,25 +1,25 @@
 Architectures: binary-amd64
 Codename: focal
 Components: main
-Date: Sat, 14 May 2022 06:58:01 +0000
+Date: Sat, 14 May 2022 07:02:04 +0000
 Description: Source Ruckus Packages for Ubuntu Focal 20.04
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: focal
 Version: 20.04
 MD5Sum:
- 4161ca5e5194ba19a636fff828f99c5f              236 Release
- 67825151f7d68eb188750925bdcc5070            10772 main/binary-amd64/Packages
- 296de3b3e4fafc1ae739d8507c96d064             3752 main/binary-amd64/Packages.xz
+ d6d466c25c8efe2ed166746df05f3241              236 Release
+ 116f2f38060f0a0a1f9ea91b9cffbe17            10774 main/binary-amd64/Packages
+ d49fbe233fe4a08bb320f1038e64087c             3752 main/binary-amd64/Packages.xz
 SHA1:
- ff1e293b43b01d11bcbe79bf464ad549c16389c4              236 Release
- 8ed502198730f5730a07eef2f6c8764d9efc77e3            10772 main/binary-amd64/Packages
- bf730556dd3870bcc1cb1caff34c5e0fafbf2ddb             3752 main/binary-amd64/Packages.xz
+ 03a66417794c56f579eae2c04b08665606a377e3              236 Release
+ e2ac829c73b838a3219c672635e0d787956c9ce9            10774 main/binary-amd64/Packages
+ 3a00181eef4ca4bbe29d7c360f0118f34b0ae921             3752 main/binary-amd64/Packages.xz
 SHA256:
- 0fdacb7a462fac120091958766ede20127f5609fd6e9798361b199b63ddb223a              236 Release
- 013b2ca8425491104bf7811bda85ead9fd523342ad9af601daaccc92ecff6673            10772 main/binary-amd64/Packages
- 653f216ab38ac2262ebcae52258ed7c96d1cea0369127b45ca2566d80fc72bdb             3752 main/binary-amd64/Packages.xz
+ ee2f03f57a044212f646ae298677d0cb1d106fb3254a0feb8169ed4ee0fea6ac              236 Release
+ 513d0f6c1ee21abf476dd044194efeec2b209698ee478948aac90e6efd398ea8            10774 main/binary-amd64/Packages
+ 65fa09dd719f15cc9d5bdd1a366b5069f90c979ad114cf7fbafeb6eef8121833             3752 main/binary-amd64/Packages.xz
 SHA512:
- 46f3a16e426b38cc8337985c7136701961974768480b683d7daf16864db9426918eeeadd0e8f678370f034932df1d2e92cf84188098f39547abb85c613229b3b              236 Release
- 9b07591830bcbfcf49ec2a19672eefb32cf66bb2cfe000b98ed3ca252515065fb72a93513cb47b0d6ae9b3f961e00f5721559d0c2a2d1262bfdcdf2bfb6b9fae            10772 main/binary-amd64/Packages
- 99ca265eab40a2b56e6ecfb1951a02628d2c4113433a1e247b5a2c14253db73ebfa3a771efdd957a116145c169a54ef7bacca79c08b410fac7630dc59468d4b0             3752 main/binary-amd64/Packages.xz
+ a1ab1ad7d163c7548d62e406ab1306e570de638915deae4250ef4ac2841aaa42a10c8c77bfbb9de2d0fa847030bad0078c106462a7c21e306a8509851da927bc              236 Release
+ b8ddd92995d6db45ece22ac4010cd4e3f2c15959669eebfe0915a68abb4fe9362870347ba96f97e4d351ba72c04685c5698a93d5f6e79891f524503d3f4988ec            10774 main/binary-amd64/Packages
+ c1813198bb7bdf7d1ffc7301a1a3652317fd93fc8356778e3bb0cd3c4212243cc762fa678fb319e092b8c49f8298f63cde6f8ea7970fab64d960de0ba6402c12             3752 main/binary-amd64/Packages.xz

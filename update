@@ -1,11 +1,31 @@
 #!/bin/bash
 
+bionic_version="18.04"
+bionic_name="Bionic Beaver"
+bionic_verspec="LTS"
+focal_version="20.04"
+focal_name="Focal Fossa"
+focal_verspec="LTS"
+
 # This assumes our pool dir matches the directory structure of our dists
 # meta-data tree.
 for x in pool/*; do
     dist=$(basename $x)
     distdir=dists/$dist
-    echo updating $dist
+    distvervar=${dist}_version
+    distver=${!distvervar}
+    distnamevar=${dist}_name
+    distname=${!distnamevar}
+    distverspecvar=${dist}_verspec
+    distverspec=${!distverspecvar}
+    if [ -n "$distverspec" ]; then
+        distverstr="$distver $distverspec"
+    else
+        distverstr=$distver
+    fi
+    distdesc="Ubuntu $distverstr ($distname)"
+    echo "updating $dist - $distdesc"
+
     archs=
     for y in $x/main/*; do
         arch=$(basename $y)
@@ -17,12 +37,12 @@ for x in pool/*; do
     done
     apt-ftparchive -o APT::FTPArchive::Release::Origin="sourceruckus-ppa" \
                    -o APT::FTPArchive::Release::Label="Source Ruckus PPA" \
-                   -o APT::FTPArchive::Release::Suite="focal" \
-                   -o APT::FTPArchive::Release::Version="20.04" \
-                   -o APT::FTPArchive::Release::Codename="focal" \
+                   -o APT::FTPArchive::Release::Suite=$dist \
+                   -o APT::FTPArchive::Release::Version=$distver \
+                   -o APT::FTPArchive::Release::Codename=$dist \
                    -o APT::FTPArchive::Release::Architectures="$(echo $archs)" \
                    -o APT::FTPArchive::Release::Components="main" \
-                   -o APT::FTPArchive::Release::Description="Source Ruckus Packages for Ubuntu Focal 20.04" \
+                   -o APT::FTPArchive::Release::Description="Source Ruckus Packages for $distdesc" \
                    release $distdir > $distdir/Release
     gpg --default-key veggiemike -abs -o - $distdir/Release > $distdir/Release.gpg
     gpg --default-key veggiemike --clearsign -o - $distdir/Release > $distdir/InRelease

@@ -1,25 +1,25 @@
 Architectures: binary-amd64
 Codename: bionic
 Components: main
-Date: Sat, 14 May 2022 07:58:57 +0000
+Date: Fri, 20 May 2022 01:29:50 +0000
 Description: Source Ruckus Packages for Ubuntu 18.04 LTS (Bionic Beaver)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: bionic
 Version: 18.04
 MD5Sum:
- 77a3f8531a21dbc9900577746a44cb2c              252 Release
- e9af99f6292c5937519ab8c6c8c37479            29664 main/binary-amd64/Packages
- 7138ae5305235959bc254d283fd2d5fe             5744 main/binary-amd64/Packages.xz
+ ac3a26aac1db4c71c969d005e7cb0975              252 Release
+ 6917d23e5d2e2dfffec836d7cf8becb7            30437 main/binary-amd64/Packages
+ c6c4e220dba32121d960e99296093ee2             5840 main/binary-amd64/Packages.xz
 SHA1:
- 58c4bcb5b1daf2feacf26128f25ddb61c3f2179b              252 Release
- fbc13988882a6be851fa11a6a80f8677bf0082aa            29664 main/binary-amd64/Packages
- 491b7fa60041bdf532cd3710d24138b2f6227520             5744 main/binary-amd64/Packages.xz
+ 824f2e851ba23e0b012c83f01bca4e4fe7cdb670              252 Release
+ 494d3c432ac474321f8b8632a626a5f593d99784            30437 main/binary-amd64/Packages
+ 3248ff091e5f5d2f9a16caf5418d2883e893b638             5840 main/binary-amd64/Packages.xz
 SHA256:
- 5a9d46dde6e5a3dc1bdcf1f91ce85012228a5ae7649f617beb18e6f9e87cdda7              252 Release
- 92cab315fb79360ab28aa98c999de78c06b2d5eb58d3fc7ab62f79314dc9f90c            29664 main/binary-amd64/Packages
- 61276cb3c174d66c4f50a1088f7768ecd3066d767e49ae6154109588ee31c66b             5744 main/binary-amd64/Packages.xz
+ 44ba3d38766a89480fd8b151c4fdd081fa8b57de8e0b4c182f872de6683f5373              252 Release
+ 51fde96f2a7e8b5edb9fa2b68a9d06bd2bf5dc264829171f4782a9a82fa05e27            30437 main/binary-amd64/Packages
+ 65ebdbabf567cbfc83d7614a6581de42dab4e731997e59fce55db831b20e6b78             5840 main/binary-amd64/Packages.xz
 SHA512:
- 1bc16928505cb72850c493ddaae22e27c2c0fb06a2b272947d8906c86c34295fcfabb93c88d06c24943630eab9587b5427c039f8313f090049cbbcd24dedbdbb              252 Release
- 6c60760a1aa5f4b89a02beed457e95e6bff912b6d83fcc1383c541ae543290a9789bc6a6d7a15357896e47af692464f4d4be5be3b454e699d3ad08582304d2f0            29664 main/binary-amd64/Packages
- 347b83b7aabbc4da1a94b4a11d843070c16c9df77cecdf56995312437819e4e2982ade190b5b5e6e63aa1936d923da6f5060556fc743d0ac41f1d30ef0d3220d             5744 main/binary-amd64/Packages.xz
+ 04694377aeeab5669f3a073cb52859720d3621122424dbc0a263525e14aa955af345cf0e278987657fd6256f6e2865775af8ffbd52964ded0e493d20db6abcb0              252 Release
+ 551fcb753ad6346047fce9c21f509b39226750cde2865dc7001a9ee8b5bc0913c17eff6172c4c9a4e682638504553decc7b3fe264ab33afd15d106054e999639            30437 main/binary-amd64/Packages
+ a8d5472c94c14d81f8cacfe03b2cf50787b8ce676c46df3841f9911822e5ba9f72da5e726cbeaeddf4b06298ec68d6298194c501de3b1ac0c02d67428971f75b             5840 main/binary-amd64/Packages.xz

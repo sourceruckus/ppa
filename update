@@ -1,11 +1,25 @@
 #!/bin/bash
 
+# Supported versions - We'll shoot to support current and previous LTS
+# releases.
+#
+# To add another:
+#
+# - add _{version,name,verspec} variables here
+# - mkdir -p pool/NEWONE/main/binary-amd64
+# - populate pool dir with packages
+# - ./update
+#
 bionic_version="18.04"
 bionic_name="Bionic Beaver"
 bionic_verspec="LTS"
 focal_version="20.04"
 focal_name="Focal Fossa"
 focal_verspec="LTS"
+jammy_version="22.04"
+jammy_name="Jammy Jellyfish"
+jammy_verspec="LTS"
+
 
 # This assumes our pool dir matches the directory structure of our dists
 # meta-data tree.

@@ -1,0 +1,150 @@
+Package: doit
+Version: 1.1.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 124
+Depends: bash, mailx
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/jammy/main/binary-amd64/doit_1.1.0-1.deb
+Size: 16188
+MD5sum: cd1700ea39124add446eb3db530d2275
+SHA1: 9c359ce221daa89e5f4250eed06cf792f35e634a
+SHA256: b50a568cec288277b4f5286c2da804e57e283f39874666cf807843c3fca3ee07
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/doit
+Description: Doit - fire-and-forget script mailer
+ Doit executes a command in the background and mails its output and
+ exit status to a specified account.  It can also log to a file
+ locally instead of mailing, if that's what floats your boat.
+
+Package: extractenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 128
+Depends: bash, debianutils
+Recommends: gzip, bzip2, xz-utils, zstd
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/jammy/main/binary-amd64/extractenator_1.0.0-1.deb
+Size: 17082
+MD5sum: fc11f63a2df8fe74871e5f95c2242591
+SHA1: 242a351e0528069e6fec61d530a444c14576d0c3
+SHA256: 9abcf7ae6209fef82d5fab48bab3645d6b69bc54f204e56b0e9702a3aacf17f7
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/extractenator
+Description: Extractenator - a spicy self-extracting installer creator
+ Extractenator is a utility for creating compressed, self extracting
+ executables that run an embedded install script after extracting to a
+ temp directory.
+
+Package: firmwarenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 124
+Depends: bash, cpio, squashfs-tools, findutils
+Recommends: gzip, bzip2, xz-utils, zstd, ruckusrd
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/jammy/main/binary-amd64/firmwarenator_1.0.0-1.deb
+Size: 16584
+MD5sum: eb9876bbbc3ce217b79f87782fc74abf
+SHA1: 8bd0d051923111b1a73f0a538cd4cf408bf9a827
+SHA256: bdf5f24cd1ee6ce255664eecc04bb1af217b0f21751d047ba5db748d66e1c2b5
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/firmwarenator
+Description: Firmwarenator - a magical machine-specific fw.img creator.
+ Firmwarenator is a utility for creating a fw.img file containing all
+ the firmware required for the host system.
+
+Package: kernel-builder
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 136
+Depends: bash, ruckusrd, extractenator, tar, findutils, make
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/jammy/main/binary-amd64/kernel-builder_1.0.0-1.deb
+Size: 18412
+MD5sum: f274a8870eda7f335d08a771ee018344
+SHA1: d943a729aa957b11d82aa011d2ce735fb6520fa1
+SHA256: 96e0615683e164a836b781fc6e52402dc991eca467d2a90c99c5de6719a4da24
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/kernel-builder
+Description: Source Ruckus Kernel-Builder - build that kernel like a wizard!
+ The Source Ruckus Kernel-Builder is a utility for automating building
+ the Linux kernel, creating a universal initrd using RuckusRD, and
+ wrapping it all up into a self-extracting kernel installer.  The
+ resulting installer can be installed locally or can install itself on
+ a list of remote hosts via SSH.
+
+Package: microcodenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 124
+Depends: bash, cpio, findutils
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/jammy/main/binary-amd64/microcodenator_1.0.0-1.deb
+Size: 15402
+MD5sum: a073ccfa9d49e105f3924e134f04a7d9
+SHA1: b840488e647151afb60d522cd2bd3abd4ff43dba
+SHA256: 3c73dec2bca2fb392d82061c432e9595121a69bdb13ccb684cff19efb0cc8dbb
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/microcodenator
+Description: Microcodenator - magical creator of ucode.img and narwhals
+ Microcodenator is a utility for creating a ucode.img file containing
+ the correct microcode for the host system.
+
+Package: pingenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 120
+Depends: python3, iputils-ping, iproute2
+Filename: pool/jammy/main/binary-amd64/pingenator_1.0.0-1.deb
+Size: 17724
+MD5sum: a904c3c7355d68ace89ac0c3a8a886b3
+SHA1: ff909336d4b61ed378a25b470859a1cef9a0909c
+SHA256: 574c40a99f85032a3b53a7be3acdac7daf796ebbd037514ad179b79106fd2181
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/pingenator
+Description: Pingenator - a super ping tool to get you places
+ Pingenator's primary use-case is checking internet connectivity by
+ pinging a list of hosts.  The pinging is done in parallel, so you can
+ ping a dozen hosts once and have the results in 1 second instead of
+ 12.
+
+Package: ruckusrd
+Version: 0.18.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 15604
+Depends: bash
+Recommends: doit, extractenator, kernel-builder, firmwarenator, microcodenator
+Filename: pool/jammy/main/binary-amd64/ruckusrd_0.18.0-1.deb
+Size: 15787198
+MD5sum: 05f835dd8ac7348e0fb15e565b5f03b3
+SHA1: 3b71d7695f794b62b7560199a3e958316221688a
+SHA256: 22fd1e33abff247f7005675716ac079c1791f9aecb87f9b6c359de7893dd573a
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/ruckusrd
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+

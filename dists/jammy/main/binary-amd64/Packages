@@ -85,6 +85,32 @@ Description: Source Ruckus Kernel-Builder - build that kernel like a wizard!
  resulting installer can be installed locally or can install itself on
  a list of remote hosts via SSH.
 
+Package: mbsystem
+Version: 5.7.9beta52-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 55M
+Depends: perl, csh, gmt, libparallel-forkmanager-perl, libaec0, libaom3, libarmadillo10, libarpack2, libblosc1, libbrotli1, libbsd0, libbz2-1.0, libc6, libcfitsio9, libcharls2, libcom-err2, libcurl3-gnutls, libcurl4, libdav1d5, libde265-0, libdeflate0, libexpat1, libffi8, libfftw3-double3, libfftw3-single3, libfontconfig1, libfreetype6, libfreexl1, libfyba0, libgcc-s1, libgdal30, libgeos-c1v5, libgeos3.10.2, libgeotiff5, libgfortran5, libgif7, libgl1, libglu1-mesa, libglvnd0, libglx0, libgmp10, libgmt6, libgnutls30, libgssapi-krb5-2, libhdf4-0-alt, libhdf5-103-1, libhdf5-hl-100, libheif1, libhogweed6, libice6, libicu70, libidn2-0, libjbig0, libjpeg-turbo8, libjson-c5, libk5crypto3, libkeyutils1, libkmlbase1, libkmldom1, libkmlengine1, libkrb5-3, libkrb5support0, liblcms2-2, libldap-2.5-0, libltdl7, liblz4-1, liblzma5, libmd0, libminizip1, libmysqlclient21, libnetcdf19, libnettle8, libnghttp2-14, libnspr4, libnss3, libnuma1, libodbc2, libodbcinst2, libogdi4.1, libopenblas0-pthread, libopengl0, libopenjp2-7, libp11-kit0, libpcre2-8-0, libpcre3, libpng16-16, libpoppler118, libpq5, libproj22, libpsl5, libqhull-r8.0, libquadmath0, librtmp1, librttopo1, libsasl2-2, libsm6, libsnappy1v5, libspatialite7, libsqlite3-0, libssh-4, libssl3, libstdc++6, libsuperlu5, libsz2, libtasn1-6, libtiff5, libtirpc3, libunistring2, liburiparser1, libuuid1, libwebp7, libx11-6, libx265-199, libxau6, libxcb1, libxdmcp6, libxerces-c3.2, libxext6, libxft2, libxm4, libxml2, libxmu6, libxrender1, libxt6, libzstd1, zlib1g
+Recommends: gv, proj-bin, geotiff-bin, gdal-bin, odbc-postgresql, tdsodbc, ogdi-bin, gmt-gshhg, netcdf-bin, hdf4-tools
+Suggests: gimp, grass-gui, e00compr, avce00, gnuplot, gpsbabel, gpstrans, grass, krb5-k5tls, gnutls-bin, libhwloc-contrib-plugins, idn, setserial, elpa-ess
+Provides: mbsystem, mbsystem-dev, mbsystem-data, mbsystem-doc
+Filename: pool/jammy/main/binary-amd64/mbsystem_5.7.9beta52-1.deb
+Size: 11567488
+MD5sum: 8a8d2c7b0018b9713871bf2030cd2527
+SHA1: c8681cfb758d88cf41c2888908399327b9364df6
+SHA256: ddfe50b9da96c349ec377ac1443bedf7932e3a05b8c4bddb691d9bdd74c4bebc
+Section: science
+Priority: optional
+Homepage: https://www.mbari.org/technology/mb-system/
+Description: Processing tools for multibeam and sidescan sonar data
+ MB-System is an open source software package for the processing and
+ display of bathymetry and backscatter imagery data derived from
+ multibeam, interferometry, and sidescan sonars. It interacts with GMT
+ (The Generic Mapping Tools) and other GIS applications.
+ .
+ This package provides the entire installation (e.g., bin, data, dev,
+ docs) for MB-System.
+
 Package: microcodenator
 Version: 1.0.0-1
 Architecture: amd64

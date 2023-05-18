@@ -1,25 +1,25 @@
 Architectures: binary-amd64
 Codename: jammy
 Components: main
-Date: Wed, 17 May 2023 22:14:42 +0000
+Date: Thu, 18 May 2023 17:22:33 +0000
 Description: Source Ruckus Packages for Ubuntu 22.04 LTS (Jammy Jellyfish)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: jammy
 Version: 22.04
 MD5Sum:
- e1221f891c8a32152d39bc0f601e57ba              252 Release
- 83481af5f4e494b6ca7e2f344fe9750b             9980 main/binary-amd64/Packages
- 74546773081fabd75dd9c73b315dc3b1             3856 main/binary-amd64/Packages.xz
+ 17a15fc1e5276e902960e846df0cae6c              252 Release
+ 0de860520b386f27151252a2fb84a2ca            11028 main/binary-amd64/Packages
+ 0401492897cca44943f4744eb71a90b1             4200 main/binary-amd64/Packages.xz
 SHA1:
- 58ac2556a824e362fef9783ce3207544db330603              252 Release
- 225b4e011850d286869b45a127a25224b116a187             9980 main/binary-amd64/Packages
- cb13b5b043b716c2b46288633d466c5a465a88dc             3856 main/binary-amd64/Packages.xz
+ 609ed0add8963f85bf272d3c376a8ce2138965b6              252 Release
+ f4991fd53b05ffb35c421bdd2bff8a74cec34394            11028 main/binary-amd64/Packages
+ 50edaf3c5adc123d0fe57e7c826d49593e0dcea3             4200 main/binary-amd64/Packages.xz
 SHA256:
- 2dea8fe037503b27cff368ef5f853e1dd871cb245a0a6a8221817e7cd16821e5              252 Release
- 01a17093dc5ba778abac21ec350d81415d48f44e0c2263d72c0b5180bc4444cb             9980 main/binary-amd64/Packages
- fdc6988cb0bcb10644637326ec812e821428e770aa9bce064275cceddc72174e             3856 main/binary-amd64/Packages.xz
+ f2403269c211fbd760876f03a568dea1a9d9b781230f6635ab5be0cb3f825d29              252 Release
+ 768a5ce566bdeb06a1538defd763a26364bcb8b0a703c73c2870b8ebf5cf264f            11028 main/binary-amd64/Packages
+ 0b251c3eeb6e3200dafbd02e363457f9637c45e4cfd09a4d1f86ccb5bee2cbba             4200 main/binary-amd64/Packages.xz
 SHA512:
- b2a0375b56213c74a8909e1a6bfbd990acd71460351f65db9bf682d488037dc55fad1676e78b9f1631f761a274aea229cfe19c97efdbe2fe662b8504d7009241              252 Release
- ae7e77c909d5a84159d45537e066353fe172a5c39e3a6ddfbf11d3159a39ab46bb0707f701345c7c6738102680a840e2b3ac25b3b103082ac058ed62ded77a25             9980 main/binary-amd64/Packages
- dc472199feaf7a8f6ca9a4ce7a98b6d1f006c84a05733eb911b097fae60437b7b8609eaf59dc72a48ab0e9f02f858747dfbedc2931a4434939197ffa412ecbfd             3856 main/binary-amd64/Packages.xz
+ 683f7e8008de7cbbb0ff36b1ad6ca050d3993f06694465d7218884c9689efe166aacb29fec6152aa6e3924fc5dc5f598c91bb58c2ebffec1c31e7dd3cb994fcd              252 Release
+ 8e57990e5fc58e1af186278c6972f06f232a4b2e8e380231205c62fec37eef204b561b0a5251e7f7f1a36897503e5e658ccf8f845816b11b178d4004980502af            11028 main/binary-amd64/Packages
+ 24b6ecfa0eb0400a350d05072be1ec45d10d6e3e12bcf01aad90398f35288aa1748e1086274d94db615f684329836d91e61aa9f3758eeb96bba6a1bb7bd70663             4200 main/binary-amd64/Packages.xz

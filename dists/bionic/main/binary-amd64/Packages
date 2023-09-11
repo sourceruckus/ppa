@@ -106,6 +106,29 @@ Description: Source Ruckus Kernel-Builder - build that kernel like a wizard!
  resulting installer can be installed locally or can install itself on
  a list of remote hosts via SSH.
 
+Package: kernel-builder
+Version: 1.0.1-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 136
+Depends: bash, ruckusrd, extractenator, tar, findutils, make
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/bionic/main/binary-amd64/kernel-builder_1.0.1-1.deb
+Size: 18784
+MD5sum: c742884bf15c1d5e35be9800a5aa8fb1
+SHA1: b49aa643cdd34f1b1d450dfc9c742da6d4b55b89
+SHA256: df0444c9a477e2899a73da335226d58cd4d1bce727cccb6391a3508484c96d47
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/kernel-builder
+Description: Source Ruckus Kernel-Builder - build that kernel like a wizard!
+ The Source Ruckus Kernel-Builder is a utility for automating building
+ the Linux kernel, creating a universal initrd using RuckusRD, and
+ wrapping it all up into a self-extracting kernel installer.  The
+ resulting installer can be installed locally or can install itself on
+ a list of remote hosts via SSH.
+
 Package: lz4
 Version: 1.9.2
 Architecture: amd64

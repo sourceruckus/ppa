@@ -40,6 +40,27 @@ Description: Doit - fire-and-forget script mailer
  exit status to a specified account.  It can also log to a file
  locally instead of mailing, if that's what floats your boat.
 
+Package: doit
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 124
+Depends: bash, mailx
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/focal/main/binary-amd64/doit_1.2.0-1.deb
+Size: 16016
+MD5sum: 8242efdbc62500b702583c60aad4fc3c
+SHA1: f84bc2460092dbd1f01233e918826d5a80b35daf
+SHA256: 356e3f470125d6d9b04b9ba2f83af532ccdc8cbddbc1aa5f90bee387682a7a6b
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/doit
+Description: Doit - fire-and-forget script mailer
+ Doit executes a command in the background and mails its output and
+ exit status to a specified account.  It can also log to a file
+ locally instead of mailing, if that's what floats your boat.
+
 Package: extractenator
 Version: 1.0.0-1
 Architecture: amd64

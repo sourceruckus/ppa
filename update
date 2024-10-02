@@ -19,6 +19,9 @@ focal_verspec="LTS"
 jammy_version="22.04"
 jammy_name="Jammy Jellyfish"
 jammy_verspec="LTS"
+noble_version="24.04"
+noble_name="Noble Numbat"
+noble_verspec="LTS"
 
 
 # This assumes our pool dir matches the directory structure of our dists

@@ -148,3 +148,27 @@ Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
  handy maintentence shell for maintaining your sqsh_layers or fixing
  boot issues.
 
+Package: zfs
+Source: zfs-linux
+Version: 2.2.4-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 59M
+Depends: by, diversion, from, libaio1t64, libblkid1, libc6, libcap2, libcom-err2, libgssapi-krb5-2, libk5crypto3, libkeyutils1, libkrb5-3, libkrb5support0, libssl3t64, libtirpc3t64, libudev1, libuuid1, to, zlib1g
+Conflicts: zfs-fuse
+Provides: zfs-dracut, zfs-initramfs, zfs-test, libnvpair1, libuutil1, libzfs2, libzfs2-devel, libzpool2, python3-pyzfs, zfsutils-linux, zfs-zed, zfs-doc
+Filename: pool/noble/main/binary-amd64/zfs_2.2.4-1.deb
+Size: 31922414
+MD5sum: 35077dbd827564741f6c9a6c212f2836
+SHA1: fe312ab090739fe3d053d8d333eb2eb56f1eeb2a
+SHA256: 283fbc5b2ed0f5ffd608f6d07222dbd3ad75145c35a0371fd2cccbc75701155d
+Section: admin
+Priority: extra
+Homepage: http://openzfs.org/
+Description: userland portion of ZFS on Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the entire userland installation for OpenZFS.
+

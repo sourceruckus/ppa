@@ -1,25 +1,25 @@
 Architectures: binary-amd64
 Codename: focal
 Components: main
-Date: Fri, 04 Oct 2024 19:49:19 +0000
+Date: Fri, 04 Oct 2024 22:00:00 +0000
 Description: Source Ruckus Packages for Ubuntu 20.04 LTS (Focal Fossa)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: focal
 Version: 20.04
 MD5Sum:
- da2fe680fd2a83290dca7cac696d15be              248 Release
+ d4bc7b6986dec3e4bb4d0c1625d7c4e7              248 Release
  eb870862a6e69b1531cf2064e4dc7348            16238 main/binary-amd64/Packages
  956f4954c7a014c324231ad2b84a2ee0             4336 main/binary-amd64/Packages.xz
 SHA1:
- 8915433416b6f9bb0546c7a0929f56cb7925ee78              248 Release
+ 58b81553558320e93c0e68a06e849bc427f1fef3              248 Release
  5648ebe7db399ec6496ddfe61d75b7fed89a92f4            16238 main/binary-amd64/Packages
  5a7a815e7e2f0692978b2902992b1d5868a8b9d5             4336 main/binary-amd64/Packages.xz
 SHA256:
- 448a7d3aeb6b5a86cf038093b5ad027a503df588e7455a2e20bd3264371d79e8              248 Release
+ bb2660fda86e31d01f43b1dd7d8efb3406e5f1793285b48dc26540944c62210d              248 Release
  7ce4cb922e091f20aecb306c23edb505350c905f688a77490cbbee588d6a1cc9            16238 main/binary-amd64/Packages
  c6f6a4eec1b74b58e1b6ded8741ad2e432f0808ce0a84e02d3e381d300b022c6             4336 main/binary-amd64/Packages.xz
 SHA512:
- 513d40ba521ad97487f9108a32c328b3972f41bb614e44b3a495aa0840c9d44fb1d58c8796423f532dbc324c2b145f94aa7f4c1a29379201f49c72d6aadac5ff              248 Release
+ f9c5768a440856af05d66162d1c883dfe62508c24950710233b335bc6bedc94c2f34448534623440176a7e65d3a90ab82b93be4a3ebe40ce053b999e73c4f017              248 Release
  11e8c2628a6dea6b41c942bc0a898a0423dc2bcb14a15440c5e28745b25a601c9ff3769ae12937594eef56179c7493753a72feb022b8f15c1c888556b07c3e3a            16238 main/binary-amd64/Packages
  354707fc8dedc6853383cf90f08ac9286e13faf41e531a380fee2b51f7139af3ccbdffbeacc26d7adfd4eee3a8a60d70e8392f8acb56b433e2bf5d86a0674230             4336 main/binary-amd64/Packages.xz

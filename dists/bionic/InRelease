@@ -4,42 +4,42 @@ Hash: SHA512
 Architectures: binary-amd64
 Codename: bionic
 Components: main
-Date: Fri, 04 Oct 2024 19:38:50 +0000
+Date: Fri, 04 Oct 2024 19:49:18 +0000
 Description: Source Ruckus Packages for Ubuntu 18.04 LTS (Bionic Beaver)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: bionic
 Version: 18.04
 MD5Sum:
- b53add9d4ad903fbacad88172c439cf7              252 Release
+ 99d7c5ca80a58b27d725a22d829d78fd              252 Release
  778b5fe0ea95a3a63188dcc76ff16d73            35131 main/binary-amd64/Packages
  5d2c9323da7c65aafadb3a5e5bc9907b             6300 main/binary-amd64/Packages.xz
 SHA1:
- 849123c8924e1c2e3a03d922012c63ebecdb625e              252 Release
+ e4281c516217e359a9ed4110da0dabfab0e3be7b              252 Release
  63d7e105cd55d6ab38ec4406c9f6b5c9144a658a            35131 main/binary-amd64/Packages
  35bae8767aa382930a20226304f70dea51a7b2d9             6300 main/binary-amd64/Packages.xz
 SHA256:
- 9b68fbf56c5b253b2d853dcbce5aa2ffdd8d85807e1783dde8cf1a697d2bf2d9              252 Release
+ 6b7197c10086f5d76bbc585f86c9e9ae7a262ec4b0782d405d455a7f28da1266              252 Release
  27d721876e34beb8b786dc9d1540b1ada815682dab122e581be26a3c2e843bbb            35131 main/binary-amd64/Packages
  c110e925b5b1834304c6bc32db79f94053fe80ce5786293913ea56b1064eed45             6300 main/binary-amd64/Packages.xz
 SHA512:
- 6b1352e243cbee1249e80d9c2ce85fe117d4555be0245d2c24e82dfc08fd4f6c4f6947b73382da50dcb8fc52c4f0232f54b720f5f08383035bfade80659cef27              252 Release
+ 5970116c90aea968b919a5aed352f513cb6a0ba2a0a69054cfc2db51a5299e8c3fe30a4c126cdb1bb1f4d36e6da26f0098bde6841441ab57d270bd6e76cfc94f              252 Release
  2477e1904de0131fa1cd1c02e6712308e96aaa4f87efa6631504aaecd8bb06c0cc7ab5c3158a41d9a45d61bccca8b2766a0df8c2910030e293b2c1ac19f0fb27            35131 main/binary-amd64/Packages
  de4c26ce9703c70fcf0627da5fb03a746895f7eaf3bfbbd1518688d741b02671377aa2bb75e73439b7e42181de87b0b30d787f349504bd1dd8990c678f04cd28             6300 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJQBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmcAREocHHZlZ2dpZW1p
-a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkH9SD/9QQLaMzRcWgc5WDL8G
-iS0rduVJU1KXZxHB4jMY06oZyoW2ywDbXSfLrzDHegxsaa9RON1mLKuqd3U2LICI
-xENgZRZLkFF4vKIIrAcCjPbW8BZSYBfSICKdTzA0bfHjGfD51JNuH51ACHtY/7Hr
-1mRDagAwfh3WhhN0HUN0brUM2aYg0sZ3UryAI2nEew6e0e/kFMFwoscaTmqYMYQ3
-5UIEcOT8BQfIxJIsPI9GOXeQQp4ihjKcNo7rDC+E7OnWo/nFVrApgnvPYzUgW/FS
-G08foFI/DuSEQGlyOBvUAd6/bwSPhSr7YlafS9Rok5vMVsMkaHyDyDdaCq9xzqS0
-UyknAkTuZMUwNBENr/nF91eyrxk79e3oSLt+f6BnI9Vle/MbFY+6K4Jvc8UABI0i
-DXr/Qe7MlCb/6nalGvwiGYoLYs/uU2ZUK//+QK0c+Y98UFY/WEBUjpa0wmTd85YI
-hmu0HBsf3WncwWURDlHSCJiILxBGWnOuu0kH75VZY5jJme7D9atlD7BO0zpALq/J
-aGEcs5ATIox7/k0t+TRL/iXOXvl0q0RLaL43xW/YkeKcLZ1VodBln8+RWP7doRap
-72z1KbBT+z0SPOgm2AFHyIHubXtYjDTSQChrp3dKMWDmzwp+Mnb6nNyhZAgpmrxi
-CLGMSPbALDZ3GFIh0ZhWWPokGg==
-=oQuh
+iQJPBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmcARr4cHHZlZ2dpZW1p
+a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkKg2D/d1KpnvCNl3D/Swubtm
+kM6A74Pe6HQyzyilooNynBT2KWV1aojU8Ap4E/wG95Rxhyca0tlaXc9DGfbZzoHA
+us2M/Zwg8In8/SzRlNBL4OvTjJ1I+rDtelVgH0GY0ldWGfjB5mk+GvQN95WV3HAu
+x5HYeWwanTBsQlRRP0zaYVmv6XQ1YWIQm/7xrhcmDZTsT3UVlJcJ+8MjHdayMvFP
+ogbhqEqUfxgqhKIDV024BpwLx9HO+4mpJVNSTzMoIB5/Bc4VurMqbjfW7wqRQo9X
+ckD2jKXLS6ia5WLcovibIIpxUw8K8VI7d+EOQGnoTJbDHDrSD9+Zza1MTXJY3Asq
+uu0BJ4AvgOs/7PSi89pIT00OFqWCK94W5TOJWoESqQqYvsYg2v92JqtAH2RaE4lN
+dK+6yUm+8vrPmo6HmaazoUnggzmn4Goeo3iw9y84lC7jGS8oIWVfZ8gnilPSclrw
+bySBoAOqmmR9OI+J8hTOQHfZhDnJQxYWajA1cQZpsdVjSzbIjmIaphJ4WvMMEHHP
+PjA12eiwFobzBA5jo9lhXWL1g9Q4xmK0wyQWY+EU0ijwEeIWcDj69LysB+VdheDv
+UKEX2zaNBQbTX2D9xDImPSv2lWbbsuONZdFq7SbFdSBu7g2t2aRZQfnJG8un3+S2
+LxGhMmFwEzHnxgc2AycR5u3L
+=oPX2
 -----END PGP SIGNATURE-----

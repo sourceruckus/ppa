@@ -85,6 +85,32 @@ Description: Source Ruckus Kernel-Builder - build that kernel like a wizard!
  resulting installer can be installed locally or can install itself on
  a list of remote hosts via SSH.
 
+Package: ltfs
+Version: 2.4.5.0-mdl-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 6.2M
+Depends: libc6, libcrypt1, libfuse2t64, libgcc-s1, libicu74, liblzma5, libperl5.38t64, libsnmp40t64, libssl3t64, libstdc++6, libuuid1, libwrap0, libxml2, zlib1g
+Filename: pool/noble/main/binary-amd64/ltfs_2.4.5.0-mdl-1.deb
+Size: 2779260
+MD5sum: 4459f62106521b35c2995eda459a8a26
+SHA1: cb93d25a10f9219d70997f49db9a7bda15832b0e
+SHA256: 02713ed0d664d1423bc7a6590959bc40c4165612487ecf7b3aff4c15e8bdecea
+Section: utils
+Priority: optional
+Homepage: https://github.com/LinearTapeFileSystem/ltfs
+Description: Reference implementation of the LTFS format Spec for stand alone tape drive
+ Linear Tape File System (LTFS) is a filesystem to mount a LTFS
+ formatted tape in a tape drive. Once LTFS mounts a LTFS formatted tape
+ as filesystem, user can access to the tape via filesystem API.
+ .
+ Objective of this project is being the reference implementation of the
+ LTFS format Specifications in SNIA.
+ .
+ At this time, the target of this project to meet is the LTFS format
+ specifications
+ 2.4. (https://www.snia.org/sites/default/files/technical_work/LTFS/LTFS_Format_2.4.0_TechPosition.pdf).
+
 Package: microcodenator
 Version: 1.0.0-1
 Architecture: amd64

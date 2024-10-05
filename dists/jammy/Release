@@ -1,25 +1,25 @@
 Architectures: binary-amd64
 Codename: jammy
 Components: main
-Date: Sat, 05 Oct 2024 01:45:57 +0000
+Date: Sat, 05 Oct 2024 04:05:36 +0000
 Description: Source Ruckus Packages for Ubuntu 22.04 LTS (Jammy Jellyfish)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: jammy
 Version: 22.04
 MD5Sum:
- dc6b6d6df7962a6e58fbcd5e621e3428              252 Release
+ 599236aa1f9a4bda02247b197e30ab3f              252 Release
  582712758bbea4e2e8cb49f97cf7faf8            25635 main/binary-amd64/Packages
  e2354eab6e97a51a7ee503d09e30e64d             5992 main/binary-amd64/Packages.xz
 SHA1:
- 48de3d223ca0d2fe478cf7b34c65362ff1d06855              252 Release
+ bafda7ce0402ef0b2a37b876c1f9b0d4e1cc5682              252 Release
  8dbc104a174fbf454286d8f120a47b480517a55e            25635 main/binary-amd64/Packages
  d0c0ad83b0d0b9e3a19c79dae6e2bcef9f3c4930             5992 main/binary-amd64/Packages.xz
 SHA256:
- 2e38bd2966b7ac91fa6836e0cc11fc3eeefdbe035880c8aa00c84dd6690b1b74              252 Release
+ 077692d044434c7007a46c44f63c94542829b7dc2efc96de8ea580f2dea53019              252 Release
  b01298593edfc21202e06e36efea692754f1ef6621e8adf65384d711a4187249            25635 main/binary-amd64/Packages
  d9598d67992e61da657de04f600c8af129f9a6e5a8816cdb6f7d0788ddb67e76             5992 main/binary-amd64/Packages.xz
 SHA512:
- 17fc579b53cc3c6a76878bcf5dfcd3e71ffea56d540b3deafac68c46ab7a10928a290187f82f618d8c3603670649de6e7b75a49110b63a55a55366cbb6845b63              252 Release
+ fe2879b231bba00c9eb7f8e28572d85e41fe51b80642555013a42d9fdc7bc0c8962d1da2fc53ae25232f0ee8d9e5e19173a6ac2b59c4e94af79b68773faffeee              252 Release
  f93743617eb9e93ec007697df4b0187d0903a4410a98d0f44268e6a79231f4d47ef6a9534aef81b429bd888bf4f493f977283c2388e4d2eb16dba47825a3fd81            25635 main/binary-amd64/Packages
  f4518f89b4fefed6e0c091cfac079fac9541310104301baf04b835240d00a9709bcbae635ab2b85f64ae1166d469e477718fda5026df2ffc2d741b97ce19968f             5992 main/binary-amd64/Packages.xz

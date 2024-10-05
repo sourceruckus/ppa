@@ -111,6 +111,32 @@ Description: Reference implementation of the LTFS format Spec for stand alone ta
  specifications
  2.4. (https://www.snia.org/sites/default/files/technical_work/LTFS/LTFS_Format_2.4.0_TechPosition.pdf).
 
+Package: mbsystem
+Version: 5.7.9beta52-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 55M
+Depends: perl, csh, gmt, libparallel-forkmanager-perl, by, diversion, from, libaec0, libarmadillo12, libarpack2t64, libblas3, libblosc1, libbrotli1, libbsd0, libbz2-1.0, libc6, libcfitsio10t64, libcom-err2, libcurl3t64-gnutls, libcurl4t64, libdeflate0, libexpat1, libffi8, libfftw3-double3, libfftw3-single3, libfontconfig1, libfreetype6, libfreexl1, libfyba0t64, libgcc-s1, libgdal34t64, libgeos-c1t64, libgeos3.12.1t64, libgeotiff5, libgfortran5, libgif7, libgl1, libglu1-mesa, libglvnd0, libglx0, libgmp10, libgmt6t64, libgnutls30t64, libgssapi-krb5-2, libhdf4-0-alt, libhdf5-103-1t64, libhdf5-hl-100t64, libheif1, libhogweed6t64, libice6, libicu74, libidn2-0, libjbig0, libjpeg-turbo8, libjson-c5, libk5crypto3, libkeyutils1, libkmlbase1t64, libkmldom1t64, libkmlengine1t64, libkrb5-3, libkrb5support0, liblapack3, liblcms2-2, libldap2, liblerc4, libltdl7, liblz4-1, liblzma5, libmd0, libminizip1t64, libmysqlclient21, libnetcdf19t64, libnettle8t64, libnghttp2-14, libnspr4, libnss3, libodbc2, libodbcinst2, libogdi4.1, libopengl0, libopenjp2-7, libp11-kit0, libpcre2-8-0, libpng16-16t64, libpoppler134, libpq5, libproj25, libpsl5t64, libqhull-r8.0, librtmp1, librttopo1, libsasl2-2, libsharpyuv0, libsm6, libsnappy1v5, libspatialite8t64, libsqlite3-0, libssh-4, libssl3t64, libstdc++6, libsuperlu6, libsz2, libtasn1-6, libtiff6, libtirpc3t64, libunistring5, liburiparser1, libuuid1, libwebp7, libx11-6, libxau6, libxcb1, libxdmcp6, libxerces-c3.2t64, libxext6, libxft2, libxm4, libxml2, libxmu6, libxrender1, libxt6t64, libzstd1, to, zlib1g
+Recommends: gv, proj-bin, geotiff-bin, gdal-bin, odbc-postgresql, tdsodbc, ogdi-bin, gmt-gshhg, netcdf-bin, hdf4-tools
+Suggests: gimp, grass-gui, e00compr, avce00, gnuplot, gpsbabel, gpstrans, grass, krb5-k5tls, gnutls-bin, libhwloc-contrib-plugins, idn, setserial, elpa-ess
+Provides: mbsystem, mbsystem-dev, mbsystem-data, mbsystem-doc
+Filename: pool/noble/main/binary-amd64/mbsystem_5.7.9beta52-1.deb
+Size: 11603378
+MD5sum: e59bb5386a3f3b79cc447c29ee6cf052
+SHA1: 4e4611260c8096a7f906df1433f39adfbb048534
+SHA256: b43c1960b5be676b7f967ac588b44ec0d78391e1fad57a6a7386c0cb3bf76dcd
+Section: science
+Priority: optional
+Homepage: https://www.mbari.org/technology/mb-system/
+Description: Processing tools for multibeam and sidescan sonar data
+ MB-System is an open source software package for the processing and
+ display of bathymetry and backscatter imagery data derived from
+ multibeam, interferometry, and sidescan sonars. It interacts with GMT
+ (The Generic Mapping Tools) and other GIS applications.
+ .
+ This package provides the entire installation (e.g., bin, data, dev,
+ docs) for MB-System.
+
 Package: microcodenator
 Version: 1.0.0-1
 Architecture: amd64

@@ -4,42 +4,42 @@ Hash: SHA512
 Architectures: binary-amd64
 Codename: jammy
 Components: main
-Date: Fri, 04 Oct 2024 22:00:04 +0000
+Date: Sat, 05 Oct 2024 01:45:57 +0000
 Description: Source Ruckus Packages for Ubuntu 22.04 LTS (Jammy Jellyfish)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: jammy
 Version: 22.04
 MD5Sum:
- 470cc628bd001c7b39a87668099ac3e7              252 Release
+ dc6b6d6df7962a6e58fbcd5e621e3428              252 Release
  582712758bbea4e2e8cb49f97cf7faf8            25635 main/binary-amd64/Packages
  e2354eab6e97a51a7ee503d09e30e64d             5992 main/binary-amd64/Packages.xz
 SHA1:
- 17d66e3a62c473db3525e84384f7cf427ba797c2              252 Release
+ 48de3d223ca0d2fe478cf7b34c65362ff1d06855              252 Release
  8dbc104a174fbf454286d8f120a47b480517a55e            25635 main/binary-amd64/Packages
  d0c0ad83b0d0b9e3a19c79dae6e2bcef9f3c4930             5992 main/binary-amd64/Packages.xz
 SHA256:
- 29a66b1c7711050e01448e5b9c6f133cd90e6380dbdc718c1843e933449fa55a              252 Release
+ 2e38bd2966b7ac91fa6836e0cc11fc3eeefdbe035880c8aa00c84dd6690b1b74              252 Release
  b01298593edfc21202e06e36efea692754f1ef6621e8adf65384d711a4187249            25635 main/binary-amd64/Packages
  d9598d67992e61da657de04f600c8af129f9a6e5a8816cdb6f7d0788ddb67e76             5992 main/binary-amd64/Packages.xz
 SHA512:
- 191e3ef8bcee8ac56e3ae9b444d6c7e31cce499df0d08af4e7c4221050bc598686cde63e42575cc2c016f90452cef58d4a0d3ae2fc6e337a9a4b62efdb43b501              252 Release
+ 17fc579b53cc3c6a76878bcf5dfcd3e71ffea56d540b3deafac68c46ab7a10928a290187f82f618d8c3603670649de6e7b75a49110b63a55a55366cbb6845b63              252 Release
  f93743617eb9e93ec007697df4b0187d0903a4410a98d0f44268e6a79231f4d47ef6a9534aef81b429bd888bf4f493f977283c2388e4d2eb16dba47825a3fd81            25635 main/binary-amd64/Packages
  f4518f89b4fefed6e0c091cfac079fac9541310104301baf04b835240d00a9709bcbae635ab2b85f64ae1166d469e477718fda5026df2ffc2d741b97ce19968f             5992 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJQBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmcAZWQcHHZlZ2dpZW1p
-a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkEzSD/9089cr85Q8bx5cwgoa
-K8CNGqB3iEpUScA5prsOsb0KTClCw+LzlzMNm2WmDIKPgzL0h6jXeWR9Qav6Eq3p
-I7D5v0yMi0WNxe7A+ihWf+ugNlW1+r/2nCPdU+/9/iYODo4ZZxq3q3YPtNMz1MUp
-+d54TsdzSLZIL6wRZZi7+UVzdIMyc58KCKbfWhCbxTI4jE1VxEsoMQkcPU4CCF/1
-0Mv0MgflIHLeC8bI9S7Xq6U/YT5oqnJhQyylLB5fViCvcxJq6QsD0gBtwILL63vB
-Kw5bga2wwKEFwAcW15aPHYnkxP0h0Ov3c4+uR82xx5m64YL67jZcMFkLkDupwUmF
-dlqfRZsKlOqGbLhkiGJth09k4r0ceXoO7vMQNcxh4xVl4yxKMLK4aScdJQyT4DcW
-wCJ+/de+7adXBLrYIvaxP4Hhv//9J3woI3IDwiO08VZkfBnUxKdJArTrxbF2uuSb
-754pXxsfFbOnIYGZi5VfPXONSSUzTfgChaua92sF+xGZxqZ7+8l2eMk2BQW/Lb/b
-fptL681SVkur5O+vLUvZGC63BUYzFMYmcs+zzkyTZ3X6eHtwR5FC49K0Op/9CO9n
-fdyJnNS4z1ABj4IgE0Lka73ypeGTV/NEGVcvn5G9bG0EL4mRGJTDcMaSftHvu9Zg
-anCghyh5g4pKHO61KgJz1c76cw==
-=TC20
+iQJQBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmcAmlUcHHZlZ2dpZW1p
+a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkC9OD/9e+8hw+UmjV86Vi9J/
+Hp/UU4xbSxW4wQZ8GyNjyH9hjpvo03OM4lNg7UoTWgrNlrbOVGNpsurhq85ihxnr
+uM+vx4jtVtTQbKHB3P/+vbnZIazSgH3c1JUN0IrJsUCrCq8cuyknAj1U0LWVnLBe
+GWwj2zLuvzUOShqHb2YBeU9aZL0TpVSdaWyQ9hrQ6BdDeUpRtSbefQvKxJ+I2LSE
+jY23HrEZVyBFuNqv0E/JJfMko5i3wSLLqyCXGBwEXNFZnXJ2LPA0VzTn42o8QXIx
+5sBEyISeWqJzz1qezMfJqjH6j8n4yMTfidXAsqnibqbQurNimfN3OFru85CldkKi
+0ZritAyYu1tCPqfONwKhTmw3el0RedpM8VZTAyO+RXs7HWaZR74afJRhStAwCt24
+G5sfBht1Y4waRE2pD5YFULnOVWXWnFlStGMNRghC3iioxvVTFzqrvbPF8n744xr8
+gdaw499X8hMXTa8/26+GlUzmnjIeM7VFARcXzEbIYYbXTqHw9uTxkwvV+MV/sVIg
+1fvhMEgRJPHR1Mbekkc4LjDrvXqFrnZV7oJw3RVdffxZMVSpeIaDfww9etCVrgSp
+YBZ7mdYPElSay4K+o3Cm9zX0RwQSrgVkHb/Nb7bKIf7ufLqUNhlug98oCNhjdJXq
+MssKNpk1+gkjOEFvIBUAW3a9lg==
+=iTw8
 -----END PGP SIGNATURE-----

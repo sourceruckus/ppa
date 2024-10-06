@@ -1,25 +1,25 @@
 Architectures: binary-amd64
 Codename: bionic
 Components: main
-Date: Sat, 05 Oct 2024 04:06:05 +0000
+Date: Sun, 06 Oct 2024 20:32:22 +0000
 Description: Source Ruckus Packages for Ubuntu 18.04 LTS (Bionic Beaver)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: bionic
 Version: 18.04
 MD5Sum:
- 63fddd209d498ae71ac9ca2244072db1              252 Release
+ c1f6d702d949573752ce9540b5834809              252 Release
  778b5fe0ea95a3a63188dcc76ff16d73            35131 main/binary-amd64/Packages
  5d2c9323da7c65aafadb3a5e5bc9907b             6300 main/binary-amd64/Packages.xz
 SHA1:
- d6821f6e3a6f1f851792f1d1b773dc1c0e44f063              252 Release
+ 2ab78bf011af0838a16c2ecc0b417bcb1d593f21              252 Release
  63d7e105cd55d6ab38ec4406c9f6b5c9144a658a            35131 main/binary-amd64/Packages
  35bae8767aa382930a20226304f70dea51a7b2d9             6300 main/binary-amd64/Packages.xz
 SHA256:
- a39a4daf64283a9e1414a94e055f6eaf6a23036080f282119efe31da89176627              252 Release
+ ed7808e125033914ca298316bb36134c5b31793cc32df5622517b7e7cfe96d3d              252 Release
  27d721876e34beb8b786dc9d1540b1ada815682dab122e581be26a3c2e843bbb            35131 main/binary-amd64/Packages
  c110e925b5b1834304c6bc32db79f94053fe80ce5786293913ea56b1064eed45             6300 main/binary-amd64/Packages.xz
 SHA512:
- fa318c4c7bddb7bc150385d869031816d00cb2141fc1ebc7f6d29c43033cc0e25d18b6e63ebefc8a42cb1946176c17c3a1e69dc4ba4032709e91113116738251              252 Release
+ 16d49cbf8ae89a70b2e74d62f0410dee9ba0fae92591cf095a7d7cf05aae171f8e807dd8c7453982c2e232c25c9cbecb114d5e6b4983fad2a151dd2523049344              252 Release
  2477e1904de0131fa1cd1c02e6712308e96aaa4f87efa6631504aaecd8bb06c0cc7ab5c3158a41d9a45d61bccca8b2766a0df8c2910030e293b2c1ac19f0fb27            35131 main/binary-amd64/Packages
  de4c26ce9703c70fcf0627da5fb03a746895f7eaf3bfbbd1518688d741b02671377aa2bb75e73439b7e42181de87b0b30d787f349504bd1dd8990c678f04cd28             6300 main/binary-amd64/Packages.xz

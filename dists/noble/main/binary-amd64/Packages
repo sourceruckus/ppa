@@ -275,6 +275,29 @@ Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
  handy maintentence shell for maintaining your sqsh_layers or fixing
  boot issues.
 
+Package: ruckusrd
+Version: 0.21.1-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 18600
+Depends: bash
+Recommends: doit, extractenator, kernel-builder, firmwarenator, microcodenator
+Filename: pool/noble/main/binary-amd64/ruckusrd_0.21.1-1.deb
+Size: 18829670
+MD5sum: 743888ce6398f01785a25e0a6f169955
+SHA1: 947fe539dcdce14cfc075c5c00bd0ba7eec7948e
+SHA256: 11d1be4c0a9de94965a645d47065c1111a686311757ca4c90dd56571a749c318
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/ruckusrd
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
 Package: xen
 Version: 4.18.2-3
 Architecture: amd64

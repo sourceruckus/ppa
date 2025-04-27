@@ -137,6 +137,32 @@ Description: Reference implementation of the LTFS format Spec for stand alone ta
  specifications
  2.4. (https://www.snia.org/sites/default/files/technical_work/LTFS/LTFS_Format_2.4.0_TechPosition.pdf).
 
+Package: ltfs
+Version: 2.4.7.1-mdl-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 6296
+Depends: libc6, libcrypt1, libfuse2t64, libgcc-s1, libicu74, liblzma5, libperl5.38t64, libsnmp40t64, libssl3t64, libstdc++6, libuuid1, libwrap0, libxml2, ltfs, zlib1g
+Filename: pool/noble/main/binary-amd64/ltfs_2.4.7.1-mdl-1.deb
+Size: 2783752
+MD5sum: 66c70d9f524c7e7494657680aec7225f
+SHA1: b98276892fe6a5d5e0f9cccc79c2e3bac48627d9
+SHA256: 1c92d1d7dee9780d740e2fcfe27a62ee8699738e0abd91cf748637a5b34aa9f5
+Section: utils
+Priority: optional
+Homepage: https://github.com/LinearTapeFileSystem/ltfs
+Description: Reference implementation of the LTFS format Spec for stand alone tape drive
+ Linear Tape File System (LTFS) is a filesystem to mount a LTFS
+ formatted tape in a tape drive. Once LTFS mounts a LTFS formatted tape
+ as filesystem, user can access to the tape via filesystem API.
+ .
+ Objective of this project is being the reference implementation of the
+ LTFS format Specifications in SNIA.
+ .
+ At this time, the target of this project to meet is the LTFS format
+ specifications
+ 2.4. (https://www.snia.org/sites/default/files/technical_work/LTFS/LTFS_Format_2.4.0_TechPosition.pdf).
+
 Package: mbsystem
 Version: 5.7.9beta52-1
 Architecture: amd64

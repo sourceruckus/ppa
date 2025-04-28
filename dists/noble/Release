@@ -1,25 +1,25 @@
 Architectures: binary-amd64
 Codename: noble
 Components: main
-Date: Sun, 27 Apr 2025 23:58:55 +0000
+Date: Mon, 28 Apr 2025 00:04:27 +0000
 Description: Source Ruckus Packages for Ubuntu 24.04 LTS (Noble Numbat)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: noble
 Version: 24.04
 MD5Sum:
- 8a955bd10d16eafe05b32141e9d4e8f1              249 Release
+ 40255ccacb8fb5a336e11ad2b020957f              249 Release
  e6807546892520a955bd4b9b88b13b5b            25626 main/binary-amd64/Packages
  d54278d04ddf8a7a93f3079d471e31f4             5996 main/binary-amd64/Packages.xz
 SHA1:
- bf630593fbc90171ac5013d8876dae36a76225e2              249 Release
+ 8b917f200b63eb6ca08b03179fd043bfc4494593              249 Release
  be21aa4bf9bd8ac370fe48855b0af12a727d1317            25626 main/binary-amd64/Packages
  f525844424785028f1d13b8284b353ab9eebd4e2             5996 main/binary-amd64/Packages.xz
 SHA256:
- fe8c313e463bcf09b46a153b70bd67a522350fd5284e3da5ffb9e0f5d7114e26              249 Release
+ 87fe6b0ee4588f76bf313d2a60ef07e84c5e8d37625687398acea3e334200c42              249 Release
  ace71793355f65d5f3ad602d77821a8208a8d35ad50221c27aa6701f5c2684c1            25626 main/binary-amd64/Packages
  464f50ae8659c8edbe557b375e9ab424668ca1ca22fdf5b1aee5938e65633d6c             5996 main/binary-amd64/Packages.xz
 SHA512:
- 5e7d566f58ae677175c847590754a3528697c652c836813ec9c238b37f7fa0b00bd6459caa7ad2abde0ae9c15721c7ea8ab9f74975a43b2cf1124ebc17681b34              249 Release
+ da95e21289fe8be85cdc50bf9ece24bc4c33939c85b0e8b46864024adeea2f1daf14c3c813044ee4063f7f61d86b3173de4054da66b30a6c6e1e08d801810f84              249 Release
  9b983d9c189e1e1d2c512cd170823891f909a55b364473027fc7e60acabbe6c86830f1548ea2af62b2336a3e705552aeee581b2d791950ac63fe49d8ce2ca82f            25626 main/binary-amd64/Packages
  4e7f2ff0fe2e1736440397e69e9375a1dbdb805544dcf900627b22f75872b7f6fa8ba8933adf9f146898165bac3e2380a75792686f387074ec94a14b94898dc8             5996 main/binary-amd64/Packages.xz

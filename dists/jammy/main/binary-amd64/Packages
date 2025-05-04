@@ -565,3 +565,27 @@ Description: userland portion of ZFS on Linux
  .
  This package provides the entire userland installation for OpenZFS.
 
+Package: zfs
+Source: zfs-linux
+Version: 2.3.2-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 61380
+Depends: libaio1, libblkid1, libc6, libcom-err2, libgssapi-krb5-2, libk5crypto3, libkeyutils1, libkrb5-3, libkrb5support0, liblzma5, libssl3, libtirpc3, libudev1, libunwind8, libuuid1, zlib1g
+Conflicts: zfs-fuse
+Provides: zfs-dracut, zfs-initramfs, zfs-test, libnvpair1, libuutil1, libzfs2, libzfs2-devel, libzpool2, python3-pyzfs, zfsutils-linux, zfs-zed, zfs-doc
+Filename: pool/jammy/main/binary-amd64/zfs_2.3.2-1.deb
+Size: 32274194
+MD5sum: bd2293b5e05bbbf8d3397f131e805974
+SHA1: 5b8027b23b12db8ec8b845be0e795a3f1c8c6ced
+SHA256: fe89f65d0a808007587275eadaa00a9e94aa241e5afa2b450400e0ca20aa8e50
+Section: admin
+Priority: extra
+Homepage: http://openzfs.org/
+Description: userland portion of ZFS on Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the entire userland installation for OpenZFS.
+

@@ -83,6 +83,27 @@ Description: Firmwarenator - a magical machine-specific fw.img creator.
  Firmwarenator is a utility for creating a fw.img file containing all
  the firmware required for the host system.
 
+Package: firmwarenator
+Version: 1.0.1-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 128
+Depends: bash, cpio, squashfs-tools, findutils
+Recommends: gzip, bzip2, xz-utils, zstd, ruckusrd
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/jammy/main/binary-amd64/firmwarenator_1.0.1-1.deb
+Size: 17366
+MD5sum: 253b3c27e8d96a4b76d7e0c44499198e
+SHA1: 1c2a0ef67225cc90ae82bffe798a66087ba8cc2f
+SHA256: 98fc7775474740a6f235f37106348b90505eeef750df443e75f16e78d6430afe
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/firmwarenator
+Description: Firmwarenator - a magical machine-specific fw.img creator.
+ Firmwarenator is a utility for creating a fw.img file containing all
+ the firmware required for the host system.
+
 Package: kernel-builder
 Version: 1.0.0-1
 Architecture: amd64

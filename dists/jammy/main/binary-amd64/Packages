@@ -248,6 +248,26 @@ Description: Microcodenator - magical creator of ucode.img and narwhals
  Microcodenator is a utility for creating a ucode.img file containing
  the correct microcode for the host system.
 
+Package: microcodenator
+Version: 1.0.1-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 124
+Depends: bash, cpio, findutils
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/jammy/main/binary-amd64/microcodenator_1.0.1-1.deb
+Size: 15474
+MD5sum: 5cae1b746f21af4f7c92e0b809b24834
+SHA1: 94b6a56c95d6fd8d034121d4f15891b540e03db5
+SHA256: e18e06b2c45edb59cb3a70ce554e5fc83732d2caa966db6c551cedf06092103a
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/microcodenator
+Description: Microcodenator - magical creator of ucode.img and narwhals
+ Microcodenator is a utility for creating a ucode.img file containing
+ the correct microcode for the host system.
+
 Package: pingenator
 Version: 1.0.0-1
 Architecture: amd64

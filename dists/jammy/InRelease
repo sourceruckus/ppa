@@ -4,42 +4,42 @@ Hash: SHA512
 Architectures: binary-amd64
 Codename: jammy
 Components: main
-Date: Sun, 25 May 2025 12:51:36 +0000
+Date: Mon, 27 Jul 2026 10:40:18 +0000
 Description: Source Ruckus Packages for Ubuntu 22.04 LTS (Jammy Jellyfish)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: jammy
 Version: 22.04
 MD5Sum:
- a2bd569d6e8eb2fefbab53f28bd7f8e5              252 Release
- 7b2cd48bedefcc5898fe91cb295aa1dc            33586 main/binary-amd64/Packages
- 661192253a41975993b6602327f86bff             6800 main/binary-amd64/Packages.xz
+ 27bf5137a5c6a57ebdd68cd7fac48eb3              252 Release
+ aa2eb972745a146e2225adbd60e5c424            34565 main/binary-amd64/Packages
+ 6cc1ac67a9d18a8a944ca9c577d23003             6900 main/binary-amd64/Packages.xz
 SHA1:
- 01b068f92c72555693885ba003e591de1147a29c              252 Release
- 1e6e5d51008837be4c843f5e94a02378fa2fa82a            33586 main/binary-amd64/Packages
- 4f5554e007cd72e31b1612478de0f08aa338e69a             6800 main/binary-amd64/Packages.xz
+ b3fbe30e76e25e8dc39d5cc9b87f2088d51ff940              252 Release
+ a6d11b16e9e9d8f28241e76f68d01a3ec0c91a8b            34565 main/binary-amd64/Packages
+ 5011bf7354f634eda921f58689febf68bcd77ad6             6900 main/binary-amd64/Packages.xz
 SHA256:
- 48ca756efc4c5a85e2e07c85587dc7f62474661a8c9cf16cb2906f075efcdf2a              252 Release
- 9727d05ec2be09055717204b1ef157fa397576be5a5cd08ab27207506c5d7cbf            33586 main/binary-amd64/Packages
- 3cabf7b6926bed21de524c68158d52e048306e5712d8655e49b65cd2b8c8e9f3             6800 main/binary-amd64/Packages.xz
+ 6080cffb661f11cf5774c714a9a6dd82cdcb88e59012eea1aa21929766a9a56c              252 Release
+ b69352e1136d9be0b3c383c5886ebef151e033ee7cb72f7ee032ac893618acc3            34565 main/binary-amd64/Packages
+ 5683f5f2de5051530e8383cf04b7062c500a22a57c9c60a933bd39f4b2b12f6a             6900 main/binary-amd64/Packages.xz
 SHA512:
- 5dc608eebaa4e630c5a29e534fbb35332840d74be1e5685ecf3b4969153baaf98266c0a46b9be7f8291fab860df84f639597a6759c2769712231f82576630e03              252 Release
- 734d79f8a5d510c65b9666a89ef7b7a471ab05042474e12ca1c97a347c6b7f2467269eac4e026c5c98e19d4a738b2d35993c1ad42e5ac8e15198040d8a2c2b3b            33586 main/binary-amd64/Packages
- 59096d885b27baa1ef4421efa2d02531b0ba5d0c7dd152010f4c8a4f7392f3dea4a78fa14bab84fab5619cf1908cbc3081bbd190ee6ddef949369bc76f3f9623             6800 main/binary-amd64/Packages.xz
+ fa60bc59c4f6957ad420b43ea4c278ad501f15c89a47227de895b27b99687140a11744f82b1ac4ec92431d57bb1f5251b9bd5da7a105ec1d5a0274559db799cb              252 Release
+ eab6ae64fc700f64efab7ee6a6e25b75fb2becedee5d048b22ebdba0485d2e2316d32e9dde17a16c9caa724cb523c79e900b894b02777c72307f905beefb00fb            34565 main/binary-amd64/Packages
+ f7c9a872effb751fe375216e63b4296f6584bfd464f06c2c8adda1b3f1ea8f235b98667fed9a90ee9b8e89844bfb8ec6044d0dd39d9ca7c61a207b002baa5810             6900 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJQBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmgzElgcHHZlZ2dpZW1p
-a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkKR+EAC36nXnqUkq9zuOB3L0
-RBQTiMvgcXIJBx76AEcZnzvS3QtkBY0HwyQyLoTpkQRsMlzps144cnltd93OKEzv
-EoGwDCADL2n+YPZ6JzNI/khnRBN77/tQio47fy4RFIKvQpri0pofwFFKuTYEk2lW
-ZTTekQ1FOwuKpMvGlukJLgMwS2Aoqsu2fk1eoIHt06mn5i1hYGwJKIklw72MqV0Y
-qJAaZfuEHy/77wHAkiPeOu1T/ZHFN/0BZeAl+5dsnpXdxOw2eQujnGxA8qbdsJCn
-IhIVAeHLRscFU93xBWXyad/v4AgAoLh4xYjzJMSQ637s10sL+Hs+FRn8+rdyU2Gt
-JBaYf+XViOfkhDZvXtKsskdf7m1uXmZyyBScGKh9+jBo+k29z9fMhG1ExsMiAMeK
-vVa60m18ohtjYN1UNrH0RxaDGnViIZutDAba3z/IKdleHlXSCghrCrXcsweYYtUc
-Lf39nsEx+TmHYQPjChUzGQmKaX2PjLfIIRQtJZniPLB2V8n99Nz2V1cXd+ICMqY2
-khYUG2WALuiaTFTUjigyo56niJkbC52rxK9YkxnwK5Ke7m7WYxWLr36uLKYvTKxt
-CMfJovQKA9RBaw00bGgb8yBmdfRaAPwXais1/QmxkNqlbV3YG9k7+sZhTCDWJ/1a
-WybsqhyFvTUV5FEldqN/j7U7Mw==
-=UBOD
+iQJQBAEBCgA6FiEEfrXBpF6oxWEXzOTcyIqqxLzr0ZAFAmpnNZIcHHZlZ2dpZW1p
+a2VAc291cmNlcnVja3VzLm9yZwAKCRDIiqrEvOvRkMUEEAC9nomcVmUoJluKWncb
+ctQqzVwOMTqWJI+mpcWJB2cbjfTTpWjh5MJ3WhVAgc+d/88golC3TgDrbemnsgHH
+ZRRQTeJffu+RZL/LqZmTyZlh1c5SEH947Lvp8U0xZdsY3IvnCPEanVX7ALwmPpV7
+McE08XFEoUjzuX6SWJE2YUpUHhwdzSxTBRVvJz6/o00CLTt6hsJVMdqnT1IbYNUb
+b6CD3/oviPYx44QARgT9v2GVfgY/HsG2XVH3ix0ZVA5miI/Y4QzFQ52ieWW3z4V+
+uTZDryq+uw218qCnPI+mXHKF3cr+7UMh6JOBoz9wkGT1FEybL4jNkwdyjioEMDN3
+kYfK7gYZrwR9+du8Ocb/hwIpjEyChW9ui8YewW/p6jn/jOBXefAZMTvowRPBjyu+
+JILvy4ZVVYDjcgYuVweZJX9WfZ/Wa4p3u4OypVFbSdygX1WCtJTnvqBAeuZ/ouWk
+UiNpCaf1uwJ1FrLkWNgtujJqIslpkNXomN516czENsnU5w2iS7kZ8cjEF1oeXURO
+cdO2+5gcOPgDguePAgYRx96t6h2h0bFmM4ch8EQuHTW0Z1YNakeMkaT3EJtBBXmL
+CCtE+jBNh7sicarQobKDaHKgxRcTmEUT0QTxRr3qerkq6KDppWwgy6UQelYiTppZ
+vwXCqLrfdZKK8lZdF7or5y7ApQ==
+=KDSD
 -----END PGP SIGNATURE-----

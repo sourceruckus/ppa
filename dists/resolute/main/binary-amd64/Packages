@@ -1,0 +1,254 @@
+Package: doit
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 12
+Depends: bash, mailx
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/resolute/main/binary-amd64/doit_1.2.0-1.deb
+Size: 16228
+MD5sum: 8bb06fd008fff19cca710e171aea70d6
+SHA1: 8303affc4b5097aa7dc1be03c97f794e5eb3a96b
+SHA256: 8a19f803af1ba8851ac66fe5dad29a9a7743172e80a2d027d49ebcc0016ddafa
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/doit
+Description: Doit - fire-and-forget script mailer
+ Doit executes a command in the background and mails its output and
+ exit status to a specified account.  It can also log to a file
+ locally instead of mailing, if that's what floats your boat.
+
+Package: extractenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 12
+Depends: bash, debianutils
+Recommends: gzip, bzip2, xz-utils, zstd
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/resolute/main/binary-amd64/extractenator_1.0.0-1.deb
+Size: 17098
+MD5sum: d161912b91f51215c36a4d67e76013c0
+SHA1: cc9e2510eabb9dc38e09c21e496be3a589e42e4f
+SHA256: 1590c4bb756320901aafdff9aefabcf91934141a127c9c995c4b929e7467ed6a
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/extractenator
+Description: Extractenator - a spicy self-extracting installer creator
+ Extractenator is a utility for creating compressed, self extracting
+ executables that run an embedded install script after extracting to a
+ temp directory.
+
+Package: firmwarenator
+Version: 1.0.2-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 12
+Depends: bash, cpio, squashfs-tools, findutils
+Recommends: gzip, bzip2, xz-utils, zstd, ruckusrd, microcodenator
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/resolute/main/binary-amd64/firmwarenator_1.0.2-1.deb
+Size: 17480
+MD5sum: 9b17fac939431a0cb35a66dd96208a6e
+SHA1: edc7fd2c31ce900e3c9bc1ff11f875a187ab459b
+SHA256: ad9674f959096f779fe6584f115d4b66e57ec557e58c8c4af814df09cf4c6b22
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/firmwarenator
+Description: Firmwarenator - a magical machine-specific fw.img creator.
+ Firmwarenator is a utility for creating a fw.img file containing all
+ the firmware required for the host system.
+
+Package: kernel-builder
+Version: 1.0.1-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 12
+Depends: bash, ruckusrd, extractenator, tar, findutils, make
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/resolute/main/binary-amd64/kernel-builder_1.0.1-1.deb
+Size: 19086
+MD5sum: df363912d3f7f7d6cb0a21d06a1f5ae2
+SHA1: 5bb0a86661dbc567a301845dce5a164bf9312373
+SHA256: 42eb3e6ce43f1e358b89603f1b9ef675a34f5ccf86c3f37a8e39291ccb7cde1a
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/kernel-builder
+Description: Source Ruckus Kernel-Builder - build that kernel like a wizard!
+ The Source Ruckus Kernel-Builder is a utility for automating building
+ the Linux kernel, creating a universal initrd using RuckusRD, and
+ wrapping it all up into a self-extracting kernel installer.  The
+ resulting installer can be installed locally or can install itself on
+ a list of remote hosts via SSH.
+
+Package: ltfs
+Version: 2.4.8.4-mdl-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 3951
+Depends: libc6, libcrypt1, libfuse2t64, libgcc-s1, libicu78, libperl5.40, libsnmp40t64, libssl3t64, libstdc++6, libuuid1, libwrap0, libxml2-16, libzstd1, zlib1g
+Filename: pool/resolute/main/binary-amd64/ltfs_2.4.8.4-mdl-1.deb
+Size: 3045206
+MD5sum: 7946ee8a9f4bfef4422e5fa9762696ce
+SHA1: 25264ba5955d05206e69088303aede91245f01ee
+SHA256: 026e8341f6e319a1ebc83c8423fe5984a50564720c019d6aa247397ac96e95e4
+Section: utils
+Priority: optional
+Homepage: https://github.com/LinearTapeFileSystem/ltfs
+Description: Reference implementation of the LTFS format Spec for stand alone tape drive
+ Linear Tape File System (LTFS) is a filesystem to mount a LTFS
+ formatted tape in a tape drive. Once LTFS mounts a LTFS formatted tape
+ as filesystem, user can access to the tape via filesystem API.
+ .
+ Objective of this project is being the reference implementation of the
+ LTFS format Specifications in SNIA.
+ .
+ At this time, the target of this project to meet is the LTFS format
+ specifications
+ 2.4. (https://www.snia.org/sites/default/files/technical_work/LTFS/LTFS_Format_2.4.0_TechPosition.pdf).
+
+Package: mbsystem
+Version: 5.8.2-2
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 22136
+Depends: perl, csh, gmt, libparallel-forkmanager-perl, libabsl20260107, libacl1, libaec0, libaom3, libarchive13t64, libarmadillo15, libarpack2t64, libassuan9, libavif16, libblas3, libblosc1, libbrotli1, libbz2-1.0, libc6, libcfitsio10t64, libcom-err2, libcurl3t64-gnutls, libcurl4t64, libdav1d7, libdeflate0, libdraco9, libexpat1, libffi8, libfftw3-double3, libfftw3-single3, libfontconfig1, libfreetype6, libfreexl1, libfyba0t64, libgav1-2, libgcc-s1, libgdal38, libgeos-c1t64, libgeos3.14.1, libgeotiff5, libgfortran5, libgif7, libgl1, libglu1-mesa, libglvnd0, libglx0, libgmp10, libgmt6t64, libgnutls30t64, libgomp1, libgpg-error0, libgpgme45, libgpgmepp7, libgssapi-krb5-2, libhdf4-0, libhdf5-310, libhdf5-hl-310, libheif1, libhogweed6t64, libhwy1t64, libice6, libicu78, libidn2-0, libjbig0, libjpeg-turbo8, libjson-c5, libjxl0.11, libk5crypto3, libkeyutils1, libkmlbase1t64, libkmldom1t64, libkmlengine1t64, libkrb5-3, libkrb5support0, liblapack3, liblcms2-2, libldap2, liblerc4, libltdl7, liblz4-1, liblzma5, libminizip1t64, libmuparser2v5, libmysqlclient24, libnetcdf22, libnettle8t64, libnghttp2-14, libnspr4, libnss3, libodbc2, libodbcinst2, libopengl0, libopenjp2-7, libp11-kit0, libpcre2-8-0, libpng16-16t64, libpoppler156, libpq5, libproj25, libpsl5t64, libqhull-r8.0, librtmp1, librttopo1, libsasl2-2, libsharpyuv0, libsm6, libsnappy1v5, libspatialite8t64, libsqlite3-0, libssh2-1t64, libssl3t64, libstdc++6, libsuperlu7, libsz2, libtasn1-6, libtiff6, libtirpc3t64, libunistring5, liburiparser1, libuuid1, libwebp7, libx11-6, libxau6, libxcb1, libxdmcp6, libxerces-c3.2t64, libxext6, libxft2, libxm4, libxml2-16, libxmu6, libxrender1, libxt6t64, libxxhash0, libyuv0, libzstd1, zlib1g
+Recommends: gv, proj-bin, geotiff-bin, gdal-bin, odbc-postgresql, tdsodbc, ogdi-bin, gmt-gshhg, netcdf-bin, hdf4-tools
+Suggests: gimp, grass-gui, e00compr, avce00, gnuplot, gpsbabel, gpstrans, grass, krb5-k5tls, gnutls-bin, libhwloc-contrib-plugins, idn, setserial, elpa-ess
+Provides: mbsystem, mbsystem-dev, mbsystem-data, mbsystem-doc
+Filename: pool/resolute/main/binary-amd64/mbsystem_5.8.2-2.deb
+Size: 13113484
+MD5sum: 79d234dbd43a4b9ce6149782947909d1
+SHA1: 796f5a252ba479e96e82115a2f3f53eb41fd033c
+SHA256: eafd4afe920d2933e2e9f7288a37098c22c3a2baaeacb6af376a14827b356d10
+Section: science
+Priority: optional
+Homepage: https://www.mbari.org/technology/mb-system/
+Description: Processing tools for multibeam and sidescan sonar data
+ MB-System is an open source software package for the processing and
+ display of bathymetry and backscatter imagery data derived from
+ multibeam, interferometry, and sidescan sonars. It interacts with GMT
+ (The Generic Mapping Tools) and other GIS applications.
+ .
+ This package provides the entire installation (e.g., bin, data, dev,
+ docs) for MB-System.
+
+Package: microcodenator
+Version: 1.0.1-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 12
+Depends: bash, cpio, findutils
+Breaks: ruckusrd (<< 0.18.0-1)
+Replaces: ruckusrd (<< 0.18.0-1)
+Filename: pool/resolute/main/binary-amd64/microcodenator_1.0.1-1.deb
+Size: 15488
+MD5sum: 3f01065c55b227826c5b2423f46f0864
+SHA1: 36619ec332e4675f81fcd40881fbe61b7bdf03dc
+SHA256: 30f5ec1a50f712c7cf06903c2dfba81f03e9def7c3ab159246b78077e0498d30
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/microcodenator
+Description: Microcodenator - magical creator of ucode.img and narwhals
+ Microcodenator is a utility for creating a ucode.img file containing
+ the correct microcode for the host system.
+
+Package: pingenator
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 11
+Depends: python3, iputils-ping, iproute2
+Filename: pool/resolute/main/binary-amd64/pingenator_1.0.0-1.deb
+Size: 17718
+MD5sum: 4774e53fcdbeae6d57ae1a9adc8653ca
+SHA1: 42d06cc860465b9094a484705b78882a257d8154
+SHA256: 6559cfa53dff2574a8fe8092a42402e2781b6e645d09a37e29ed7255c4b09c0a
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/pingenator
+Description: Pingenator - a super ping tool to get you places
+ Pingenator's primary use-case is checking internet connectivity by
+ pinging a list of hosts.  The pinging is done in parallel, so you can
+ ping a dozen hosts once and have the results in 1 second instead of
+ 12.
+
+Package: ruckusrd
+Version: 0.22.3-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 18
+Depends: bash
+Recommends: doit, extractenator, kernel-builder, firmwarenator, microcodenator
+Filename: pool/resolute/main/binary-amd64/ruckusrd_0.22.3-1.deb
+Size: 20629270
+MD5sum: 28b9a9806bf27496a3cf88864044367e
+SHA1: 17876b449711f2e9cb6cfaf86e07d9346e7d90b3
+SHA256: 3f534e555652c4d235a8a03c64b4150aecd899c338449a370231d73bd4df1586
+Section: utils
+Priority: optional
+Homepage: https://github.com/sourceruckus/ruckusrd
+Description: RuckusRD - a super awesome, yet simple, mkinitrd replacement
+ RuckusRD provides you with an initramfs capable of 1) creating a
+ Layered Squashfs Root Filesystem (great for baselining!), 2) being
+ used on all different kinds of hardware (instead of needing to
+ re-build your initramfs for each system), and 3) giving you a super
+ handy maintentence shell for maintaining your sqsh_layers or fixing
+ boot issues.
+
+Package: xen
+Version: 4.22.0-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 124439
+Depends: bash, libaio1t64, libapparmor1, libasound2t64, libasyncns0, libatomic1, libblkid1, libbrotli1, libbsd0, libbz2-1.0, libc6, libcom-err2, libcurl4t64, libdbus-1-3, libdecor-0-0, libdeflate0, libdrm2, libexpat1, libext2fs2t64, libffi8, libflac14, libfuse3-4, libgbm1, libgcc-s1, libglib2.0-0t64, libgmp10, libgnutls30t64, libgssapi-krb5-2, libhogweed6t64, libidn2-0, libjbig0, libjpeg-turbo8, libjson-c5, libk5crypto3, libkeyutils1, libkrb5-3, libkrb5support0, libldap2, liblerc4, liblz4-1, liblzma5, liblzo2-2, libmd0, libmount1, libmp3lame0, libmpg123-0t64, libncurses6, libncursesw6, libnettle8t64, libnghttp2-14, libnl-3-200, libnl-route-3-200, libogg0, libopus0, libp11-kit0, libpcre2-8-0, libpixman-1-0, libpng16-16t64, libpsl5t64, libpulse0, librtmp1, libsamplerate0, libsasl2-2, libsdl2-2.0-0, libsdl2-image-2.0-0, libselinux1, libsharpyuv0, libsndfile1, libsndio7.0, libssh2-1t64, libssl3t64, libstdc++6, libsystemd0, libtasn1-6, libtiff6, libtinfo6, libudev1, libunistring5, libuuid1, libvorbis0a, libvorbisenc2, libwayland-client0, libwayland-cursor0, libwayland-egl1, libwebp7, libwebpdemux2, libx11-6, libx11-xcb1, libxau6, libxcb1, libxcursor1, libxdmcp6, libxext6, libxfixes3, libxi6, libxkbcommon0, libxrandr2, libxrender1, libxss1, libxxhash0, libzstd1, zlib1g
+Recommends: bridge-utils, qemu-system-x86, grub-xen-host, qemu-utils, seabios, ovmf, lsb-base, udev, python3, ucf
+Replaces: xen-hypervisor, xen-system, xen-utils, xen-utils-common, xenstore-utils, libxen-dev, libxencall1, libxendevicemodel1, libxenevtchn1, libxenforeignmemory1, libxengnttab1, libxenmisc4.11, libxenstore3.0, libxentoolcore1, libxentoollog1, qemu-system-x86-xen
+Filename: pool/resolute/main/binary-amd64/xen_4.22.0-1.deb
+Size: 88230816
+MD5sum: 662c90b2be1610482a7713454f2cda04
+SHA1: 14d7f61db7b82733ad9774f7655401e80c49afdf
+SHA256: 2296d372f82f0749427a22a86382b13d69a7cf9a68649b7477ae78b5322691e0
+Section: utils
+Priority: optional
+Homepage: http://xenproject.org
+Description: Xen Hypervisor and userland tools
+ Xen is a Virtual Machine Monitor (VMM) originally developed by the
+ Systems Research Group of the University of Cambridge Computer
+ Laboratory, as part of the UK-EPSRC funded XenoServers project.  Xen
+ is freely-distributable Open Source software, released under the GNU
+ GPL. Since its initial public release, Xen has grown a large
+ development community, spearheaded by xenproject.org
+ (http://www.xenproject.org).
+ .
+ This package provides the hypervisor and entire userland installation
+ for Xen.
+
+Package: zfs
+Source: zfs-linux
+Version: 2.3.8-1
+Architecture: amd64
+Maintainer: Michael D Labriola <veggiemike@sourceruckus.org>
+Installed-Size: 69349
+Depends: libaio1t64, libblkid1, libc6, libcom-err2, libgssapi-krb5-2, libk5crypto3, libkeyutils1, libkrb5-3, libkrb5support0, liblzma5, libssl3t64, libtirpc3t64, libudev1, libunwind8, libuuid1, libzstd1, zlib1g
+Conflicts: zfs-fuse
+Provides: zfs-dracut, zfs-initramfs, zfs-test, libnvpair1, libuutil1, libzfs2, libzfs2-devel, libzpool2, python3-pyzfs, zfsutils-linux, zfs-zed, zfs-doc
+Filename: pool/resolute/main/binary-amd64/zfs_2.3.8-1.deb
+Size: 32288562
+MD5sum: 91397414627e33eea0772a010c9c682c
+SHA1: 38d48744b07717add23d318b3c2cc6ea24421300
+SHA256: 9d38eeb02af4e9d8d1eadcafdaebf440835aef3d362573fbee5d102ef6699608
+Section: admin
+Priority: extra
+Homepage: http://openzfs.org/
+Description: userland portion of ZFS on Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the entire userland installation for OpenZFS.
+

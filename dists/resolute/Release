@@ -1,0 +1,25 @@
+Architectures: binary-amd64
+Codename: resolute
+Components: main
+Date: Sun, 02 Aug 2026 07:50:35 +0000
+Description: Source Ruckus Packages for Ubuntu 26.04 LTS (Resolute Raccoon)
+Label: Source Ruckus PPA
+Origin: sourceruckus-ppa
+Suite: resolute
+Version: 26.04
+MD5Sum:
+ 50db8bc8ac472b55c26f9ccb24d9e74c              259 Release
+ 956fbfd3d5a5edd6958e16af44d7a6e2            13833 main/binary-amd64/Packages
+ 27168716b5166ae5d2e1f5f642a2f78b             5140 main/binary-amd64/Packages.xz
+SHA1:
+ 98f262adcff7b09460b6919e2a8954405869768e              259 Release
+ e6616f23c238564890bd6e3aab5d1460077d4358            13833 main/binary-amd64/Packages
+ 4b8eb98235bf369f7653f2b26fbc3d07cfc21716             5140 main/binary-amd64/Packages.xz
+SHA256:
+ df105a041d6ecc25b9e8f34e27d62ce85037a461638aace60509c2475c7b0e28              259 Release
+ f896ff5a978cb4fdf5a211715ae165fc91701971622230eec032cce9a77d236d            13833 main/binary-amd64/Packages
+ 469c6125ccc3455bc7328dc1c1707dfffeaebfacb88c8e4a4f2a873dd9ec2a95             5140 main/binary-amd64/Packages.xz
+SHA512:
+ 47185a734164d0aa482adc1acfb0b5783d3a3dde0728ffa06e50680b38ae0439cf003b081914777e685fc817db00f342c763f4a5a33945e59443fb3a09780a29              259 Release
+ 713d9f06f6749b0723899943314c8b015a751c46c7a6b6ff5f2b2929197a43d0fdf83e2d9bf99128df509c32a3a3499c4523a375fdb1ecf1cac5d0213657232c            13833 main/binary-amd64/Packages
+ 8a6fd727f32a3ffbfefa03a50ec77de4ccea621a7c725b1d44f0bfd8d9697add5d8aa60bc373d7159ffe5939881c14e964943e7e8b22256147aa48bb8b7bcf8d             5140 main/binary-amd64/Packages.xz

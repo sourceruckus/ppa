@@ -10,18 +10,23 @@
 # - populate pool dir with packages
 # - ./update
 #
+# NOTE: can't disown bionic until I've upgraded the stragglers at CAH
+#
 bionic_version="18.04"
 bionic_name="Bionic Beaver"
 bionic_verspec="LTS"
-focal_version="20.04"
-focal_name="Focal Fossa"
-focal_verspec="LTS"
+#focal_version="20.04"
+#focal_name="Focal Fossa"
+#focal_verspec="LTS"
 jammy_version="22.04"
 jammy_name="Jammy Jellyfish"
 jammy_verspec="LTS"
 noble_version="24.04"
 noble_name="Noble Numbat"
 noble_verspec="LTS"
+resolute_version="26.04"
+resolute_name="Resolute Raccoon"
+resolute_verspec="LTS"
 
 
 # This assumes our pool dir matches the directory structure of our dists
@@ -41,7 +46,12 @@ for x in pool/*; do
         distverstr=$distver
     fi
     distdesc="Ubuntu $distverstr ($distname)"
-    echo "updating $dist - $distdesc"
+    if [ -z "$distver" -o -z "$distname" ]; then
+        echo "skipping $dist..."
+        continue
+    else
+        echo "updating $dist - $distdesc"
+    fi
 
     archs=
     for y in $x/main/*; do

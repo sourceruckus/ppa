@@ -1,25 +1,25 @@
 Architectures: binary-amd64
 Codename: resolute
 Components: main
-Date: Sun, 02 Aug 2026 07:50:35 +0000
+Date: Thu, 13 Aug 2026 11:09:19 +0000
 Description: Source Ruckus Packages for Ubuntu 26.04 LTS (Resolute Raccoon)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: resolute
 Version: 26.04
 MD5Sum:
- 50db8bc8ac472b55c26f9ccb24d9e74c              259 Release
- 956fbfd3d5a5edd6958e16af44d7a6e2            13833 main/binary-amd64/Packages
- 27168716b5166ae5d2e1f5f642a2f78b             5140 main/binary-amd64/Packages.xz
+ 5cf44fce1628b3ce0d0a199f324ed403              259 Release
+ 02dc5b9738a41508c57122d504cec07d            17182 main/binary-amd64/Packages
+ 431a7c27b6e382228b62290d2130baf9             5464 main/binary-amd64/Packages.xz
 SHA1:
- 98f262adcff7b09460b6919e2a8954405869768e              259 Release
- e6616f23c238564890bd6e3aab5d1460077d4358            13833 main/binary-amd64/Packages
- 4b8eb98235bf369f7653f2b26fbc3d07cfc21716             5140 main/binary-amd64/Packages.xz
+ 03b02d118c755d191ab6b33072f424d18f7a7cb5              259 Release
+ f3fdd4043f62c082d8ae279e33254a171d92451a            17182 main/binary-amd64/Packages
+ 4dc5d59cf285b12e6231f8be3520fc6599a14e1d             5464 main/binary-amd64/Packages.xz
 SHA256:
- df105a041d6ecc25b9e8f34e27d62ce85037a461638aace60509c2475c7b0e28              259 Release
- f896ff5a978cb4fdf5a211715ae165fc91701971622230eec032cce9a77d236d            13833 main/binary-amd64/Packages
- 469c6125ccc3455bc7328dc1c1707dfffeaebfacb88c8e4a4f2a873dd9ec2a95             5140 main/binary-amd64/Packages.xz
+ 40c867c3450ae121d71e8b7af2d6a64def151e8119730abf3a6c4863895e9ee1              259 Release
+ d823b478439874b35ae2db3b68b99f07a16f10983c99a08bed1a1b472e10840c            17182 main/binary-amd64/Packages
+ f9e2e16b3ab19048d2e727ce02bbebf8bc857fe00958f6e8dccc084adfe71658             5464 main/binary-amd64/Packages.xz
 SHA512:
- 47185a734164d0aa482adc1acfb0b5783d3a3dde0728ffa06e50680b38ae0439cf003b081914777e685fc817db00f342c763f4a5a33945e59443fb3a09780a29              259 Release
- 713d9f06f6749b0723899943314c8b015a751c46c7a6b6ff5f2b2929197a43d0fdf83e2d9bf99128df509c32a3a3499c4523a375fdb1ecf1cac5d0213657232c            13833 main/binary-amd64/Packages
- 8a6fd727f32a3ffbfefa03a50ec77de4ccea621a7c725b1d44f0bfd8d9697add5d8aa60bc373d7159ffe5939881c14e964943e7e8b22256147aa48bb8b7bcf8d             5140 main/binary-amd64/Packages.xz
+ ff42679b685f2f24f042c7af905f19cc76e5b84d52ad5b6bb9d415c50953eac1b839580fbb017770fd8da6c0ac051d681919236be67e4ce9cda150344b0d6664              259 Release
+ 1e9e4076fbd6da61e157541d5267c6cd8d16daafce7a1a0634bf55205366db288708be0fb876ab92c6ce002a51b1cabd7cb923d7a9fff3863dacf5bdfbe78a91            17182 main/binary-amd64/Packages
+ ef1f4916f5a48ad602a5b5a7abeab2210cbcd28a53477010f6340cff737b61048b779754d5546442eb7cc2b5dc5a85ed073b2971042049afe65ef55f76d6a5c1             5464 main/binary-amd64/Packages.xz

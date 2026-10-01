@@ -1,25 +1,25 @@
 Architectures: binary-amd64
 Codename: noble
 Components: main
-Date: Thu, 13 Aug 2026 11:09:17 +0000
+Date: Thu, 01 Oct 2026 17:21:00 +0000
 Description: Source Ruckus Packages for Ubuntu 24.04 LTS (Noble Numbat)
 Label: Source Ruckus PPA
 Origin: sourceruckus-ppa
 Suite: noble
 Version: 24.04
 MD5Sum:
- 3a9409b92d06f5824cb6481c5d2ba15e              249 Release
- 714789d1760274b7de2eb335234b9045            37174 main/binary-amd64/Packages
- 96a3044e0875b995f23c2085a2ef7535             7016 main/binary-amd64/Packages.xz
+ 117b2721174067bd7376e28db6b7500d              249 Release
+ 0e145f96d1baea8c1df33694fbb61cca            40365 main/binary-amd64/Packages
+ 381e3252559a96f137603895912932d6             7124 main/binary-amd64/Packages.xz
 SHA1:
- b2c847ed42dbab9068d255fbe73f1a302f58224a              249 Release
- 5657d8b7a5f02ef090653d0ba1ff9adfe30ad9d3            37174 main/binary-amd64/Packages
- 14481f54b5904c6b6f18bb83293cf15dd49366d5             7016 main/binary-amd64/Packages.xz
+ 4bf1892195184f253d4ce9b6d03ffb763acad054              249 Release
+ 00d6f27d6bc6857d7736645ea17a442d62231f28            40365 main/binary-amd64/Packages
+ 879d35a6b47d692d5fd9ae3eab507108998b6c45             7124 main/binary-amd64/Packages.xz
 SHA256:
- 0def24bca2ac13de8bbcb5ece3e69db76f84819a2b667d88b512aef4bdd05304              249 Release
- 556c115e5b596de6b3468fd7a4021106863de1671fda24d628eaf1f05cc1bff3            37174 main/binary-amd64/Packages
- b2ca27da52c2989f81a3ed50e63ac59a9d7781f4253b8961f91eaf8788c6361f             7016 main/binary-amd64/Packages.xz
+ a6105c0904ae4d4458a42e9e127bfccd0553ccbff3ae06c34f8381572df50c5b              249 Release
+ 038f24783c39822c04e7708eed45de005e66bf2bef391d3b965a4db8f4b44169            40365 main/binary-amd64/Packages
+ 55fd55eae15d691395be34d9b4ef4bb9209bb3c081531d9e52ad046e71a406d7             7124 main/binary-amd64/Packages.xz
 SHA512:
- 28c755ef020900f50344731750b0eb2ccb67cf0eb513c1a3d74a5079dce6732809526987394e924f8b38dc96ebb69bbb1008c7ac538edc8c7ad603303dc9166c              249 Release
- 769aae8532d2ee03325418f322516cea6fc2cc0657673e870027c599e7d31b76431944f9921f4d5ed95400321095744cfaac25ff00702de1d920e33adba1b33b            37174 main/binary-amd64/Packages
- 3ecedbf01f92c29594ce6f002d0fd08ddf223e13c06a4799453a66826e3a84744bffb9a082e77c08a39cdddf2b58e203c65421df7f9824c9cc2daff5f01c0a61             7016 main/binary-amd64/Packages.xz
+ e4a7e645f7a49756c47381b2a3fd07632b39f1358ca1ecf0a19045604dadfb670ec76da3d4a863071b7165481b3f30a9478750afbb1f3245c4faab125b32208d              249 Release
+ 24674af93bf789c7ecb991990d17ed955e7afa65c7740bca28d8b3298e86a813550f7eb872a47811ebf761f0d21f15743de3f3d2a6f9ec95167d13a72b950afa            40365 main/binary-amd64/Packages
+ 96f7445b498c358d398edabbf28b14361fafe7fbd52d0bcec405b98b951016657ac3cc6b338d3eb2f6df9f6d15d96676aaef532c6a988f056bb67c817c803b8f             7124 main/binary-amd64/Packages.xz
